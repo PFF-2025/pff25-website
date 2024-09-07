@@ -22,7 +22,7 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "4.2.0",
-    "craftcms/cms": "^5.0.0",
+    "craftcms/cms": "5.4.2",
     "nystudio107/craft-code-field": "5.0.0",
     "spacemonk/craft-language-manager": "1.1.0",
     "verbb/doxter": "6.0.0",
