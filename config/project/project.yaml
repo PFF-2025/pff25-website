@@ -1,7 +1,7 @@
-dateModified: 1725725056
+dateModified: 1725734112
 email:
   fromEmail: info@pff25.ch
-  fromName: 'PFF'
+  fromName: PFF
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   uploads:
@@ -14,19 +14,17 @@ fs:
 meta:
   __names__:
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
-    9ae5a443-256e-4cc3-afe5-0de572402e32: hihihi # hihihi
     47d2643e-005f-4d89-918d-f4589848d9cd: PageBlock # PageBlock
     60b1f1e4-1407-418f-878a-63e8394db8d1: 'Html Block' # Html Block
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
     268e30b2-361d-4b81-9e08-483bbc18f966: pageuploads # pageuploads
-    283f2b4b-9210-4126-8d4d-0e3f70da74e9: html # html
+    283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
     618e4923-3b9b-493f-a1c8-f33aba1400c1: Französisch # Französisch
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
-    3044d34f-d7b9-4961-9e6b-d3bfbccd4ca2: markyy # markyy
-    419709be-2d90-4e34-9572-8efb3108bd45: code # code
+    419709be-2d90-4e34-9572-8efb3108bd45: 'Code (HTML)' # Code (HTML)
     a3efe0c5-c237-4131-9622-414a98183477: Italienisch # Italienisch
-    b02cf624-e7cc-4348-8cd6-e7c19d0f8022: 'PFF' # PFF
+    b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
     e0ee82a8-2dc7-46c7-97d6-2a9684e37800: asdf # asdf
@@ -56,7 +54,7 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'PFF'
+  name: PFF
   retryDuration: null
   schemaVersion: 5.3.0.2
   timeZone: Europe/Zurich

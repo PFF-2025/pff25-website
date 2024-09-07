@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: code
 instructions: null
-name: code
+name: 'Code (HTML)'
 searchable: false
 settings:
   availableLanguages:
