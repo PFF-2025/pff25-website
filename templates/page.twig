@@ -5,7 +5,7 @@
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageBlock' %}
 				<div class="pageblock pageblock--{{block.blockStyle}}">
-					<div class="pageblock__content">
+					<div class="pageblock__content ck-content">
 						{{ block.html|raw }}
 					</div>
 				</div>
