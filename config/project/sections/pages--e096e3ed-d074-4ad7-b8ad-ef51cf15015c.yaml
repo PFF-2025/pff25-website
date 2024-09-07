@@ -23,17 +23,17 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: page.twig
-    uriFormat: 'pages/{slug}'
+    uriFormat: '{slug}'
   a3efe0c5-c237-4131-9622-414a98183477: # Italienisch
     enabledByDefault: true
     hasUrls: true
     template: page.twig
-    uriFormat: 'pages/{slug}'
+    uriFormat: '{slug}'
   f02ed8f0-43c2-4b64-a754-d824ee40e9af: # Deutsch
     enabledByDefault: true
     hasUrls: true
     template: page.twig
-    uriFormat: 'pages/{slug}'
+    uriFormat: '{slug}'
 structure:
   maxLevels: null
   uid: 04185142-0576-444d-b9f0-f1ee4314c22d
