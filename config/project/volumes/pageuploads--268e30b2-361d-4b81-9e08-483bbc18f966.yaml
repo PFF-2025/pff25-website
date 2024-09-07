@@ -41,7 +41,7 @@ fieldLayouts:
         userCondition: null
 fs: uploads
 handle: pageuploads
-name: pageuploads
+name: 'Page Uploads'
 sortOrder: 1
 subpath: pageuploads
 titleTranslationKeyFormat: null

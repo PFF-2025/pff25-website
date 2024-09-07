@@ -1,4 +1,4 @@
-dateModified: 1725734112
+dateModified: 1725736078
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -13,12 +13,13 @@ fs:
     url: $PRIMARY_SITE_URL
 meta:
   __names__:
+    3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
     47d2643e-005f-4d89-918d-f4589848d9cd: PageBlock # PageBlock
     60b1f1e4-1407-418f-878a-63e8394db8d1: 'Html Block' # Html Block
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
-    268e30b2-361d-4b81-9e08-483bbc18f966: pageuploads # pageuploads
+    268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
     283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
     618e4923-3b9b-493f-a1c8-f33aba1400c1: Französisch # Französisch
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS

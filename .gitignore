@@ -3,5 +3,6 @@
 /vendor
 .DS_Store
 /web/pageuploads/
+/web/images/
 /config/license.key*
 /.htaccess
