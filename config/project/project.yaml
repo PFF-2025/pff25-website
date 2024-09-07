@@ -1,7 +1,7 @@
-dateModified: 1725708915
+dateModified: 1725725056
 email:
-  fromEmail: demian.holderegger@gmail.com
-  fromName: 'PFF Test'
+  fromEmail: info@pff25.ch
+  fromName: 'PFF'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   uploads:
@@ -26,7 +26,7 @@ meta:
     3044d34f-d7b9-4961-9e6b-d3bfbccd4ca2: markyy # markyy
     419709be-2d90-4e34-9572-8efb3108bd45: code # code
     a3efe0c5-c237-4131-9622-414a98183477: Italienisch # Italienisch
-    b02cf624-e7cc-4348-8cd6-e7c19d0f8022: 'PFF Test' # PFF Test
+    b02cf624-e7cc-4348-8cd6-e7c19d0f8022: 'PFF' # PFF
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
     e0ee82a8-2dc7-46c7-97d6-2a9684e37800: asdf # asdf
@@ -56,7 +56,7 @@ plugins:
 system:
   edition: solo
   live: true
-  name: 'PFF Test'
+  name: 'PFF'
   retryDuration: null
   schemaVersion: 5.3.0.2
   timeZone: Europe/Zurich
