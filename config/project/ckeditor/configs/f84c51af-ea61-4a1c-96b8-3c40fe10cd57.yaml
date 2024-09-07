@@ -1,0 +1,19 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+name: Simple
+options:
+  alignment:
+    options:
+      - left
+      - right
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - alignment
+  - link
+  - '|'
+  - sourceEditing

@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - b2d99a25-b299-4336-87fe-95d042e4935b # Page
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  618e4923-3b9b-493f-a1c8-f33aba1400c1: # Französisch
+    enabledByDefault: true
+    hasUrls: true
+    template: page.twig
+    uriFormat: 'pages/{slug}'
+  a3efe0c5-c237-4131-9622-414a98183477: # Italienisch
+    enabledByDefault: true
+    hasUrls: true
+    template: page.twig
+    uriFormat: 'pages/{slug}'
+  f02ed8f0-43c2-4b64-a754-d824ee40e9af: # Deutsch
+    enabledByDefault: true
+    hasUrls: true
+    template: page.twig
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: 04185142-0576-444d-b9f0-f1ee4314c22d
+type: structure

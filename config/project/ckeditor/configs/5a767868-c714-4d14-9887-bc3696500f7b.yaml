@@ -1,0 +1,44 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+name: Fancy
+options:
+  image:
+    toolbar:
+      - 'imageStyle:alignLeft'
+      - 'imageStyle:alignCenter'
+      - 'imageStyle:alignRight'
+      - toggleImageCaption
+      - imageTextAlternative
+      - transformImage
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - underline
+  - strikethrough
+  - fontColor
+  - fontBackgroundColor
+  - '|'
+  - link
+  - insertImage
+  - '|'
+  - alignment
+  - bulletedList
+  - numberedList
+  - outdent
+  - indent
+  - blockQuote
+  - horizontalLine
+  - '|'
+  - mediaEmbed
+  - insertTable
+  - '|'
+  - undo
+  - redo
+  - removeFormat
+  - htmlEmbed
+  - sourceEditing
+  - createEntry

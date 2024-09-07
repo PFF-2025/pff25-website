@@ -1,0 +1,28 @@
+fieldLayouts:
+  45b81934-a789-46db-a4cd-611dfcf0aa3d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-06T14:18:00+00:00'
+            elementCondition: null
+            fieldUid: 679e177d-d0a0-4beb-94c2-d052c3703718 # Custom CSS
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80f4d288-8c69-4249-80e0-60c37c2cb992
+            userCondition: null
+            warning: null
+            width: 100
+        name: CSS
+        uid: b6f02f76-5083-4f1b-8d43-5ce7dca3b81d
+        userCondition: null
+handle: pffSettings
+name: 'PFF Settings'
+sortOrder: 1

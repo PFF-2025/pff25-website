@@ -1,0 +1,20 @@
+{% include "_header.twig" %}
+
+<div class="papecontent">
+	{% if entry.pageContents | length %}
+		{% for block in entry.pageContents.all() %}
+			{% if block.type == 'pageBlock' %}
+				<div class="pageblock pageblock--{{block.blockStyle}}">
+					<div class="pageblock__content">
+						{{ block.html|raw }}
+					</div>
+				</div>
+			{% endif %}
+			{% if block.type == 'htmlBlock' %}
+				{{ block.code|raw }}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+</div>
+
+{% include "_footer.twig" %}
