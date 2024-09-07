@@ -1,0 +1,15 @@
+name: Deploy Website
+run-name: ${{ github.actor }} deployed the website
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Website
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: pff25.ch
+          username: coduzudy
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: ~/deploy.sh
