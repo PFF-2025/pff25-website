@@ -4,3 +4,4 @@
 .DS_Store
 /web/pageuploads/
 /config/license.key*
+/.htaccess
