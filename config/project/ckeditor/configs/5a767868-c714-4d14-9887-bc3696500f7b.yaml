@@ -12,6 +12,16 @@ options:
       - toggleImageCaption
       - imageTextAlternative
       - transformImage
+  link:
+    addTargetToExternalLinks: true
+    decorators:
+      isWitharrow:
+        attributes:
+          class: link-with-arrow
+        label: Pfeil
+        mode: manual
+    defaultProtocol: 'https://'
+    targetOptions: true
 toolbar:
   - heading
   - '|'
