@@ -1,4 +1,23 @@
+{% set pffSettings = craft.app.globals.getSetByHandle('pffSettings') %}
 <footer class="footer">
+	<div class="footer__content">
+		<div class="footer__columns">
+			{% if pffSettings.footerColumns | length %}
+				{% for block in pffSettings.footerColumns.all() %}
+					<div class="footer__column">
+						{% if block.type == 'contentBlock' %}
+							<div class="ck-content">
+								{{ block.html|raw }}
+							</div>
+						{% endif %}
+						{% if block.type == 'htmlBlock' %}
+							{{ block.code|raw }}
+						{% endif %}
+					</div>
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
 	<div class="language-switch">
 		{% hook 'languageManagerNavigation' %}
 	</div>

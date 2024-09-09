@@ -9,7 +9,7 @@ settings:
       __assoc__:
         -
           - label
-          - white
+          - Weiss
         -
           - value
           - white
@@ -20,7 +20,7 @@ settings:
       __assoc__:
         -
           - label
-          - blue
+          - Blau
         -
           - value
           - blue
@@ -31,10 +31,21 @@ settings:
       __assoc__:
         -
           - label
-          - green
+          - Grün
         -
           - value
           - green
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Lila
+        -
+          - value
+          - lila
         -
           - default
           - ''

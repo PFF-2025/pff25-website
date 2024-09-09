@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ craft.app.language }}">
+{% set pffSettings = craft.app.globals.getSetByHandle('pffSettings') %}
 <head>
 	<meta charset="UTF-8">
 	<title>{{ entry.title }}</title>
-	<meta name="description" content="Das PFF FFS 25 HORIZONT ist die Fortführung einer langjährigen, schweizweiten Tradition – dem Pfadi Folk Fest." />
+	<meta name="description" content="{{ pffSettings.metaDescription }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="referrer" content="origin-when-cross-origin" />
@@ -16,9 +17,17 @@
 	<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
 	<link rel="manifest" href="/favicon/site.webmanifest" />
 	<link rel="stylesheet" href="/iconfonts/icomoon/style.css">
+	<link rel="stylesheet" href="/styles.css">
 	<style>
-		{% set pffSettings = craft.app.globals.getSetByHandle('pffSettings') %}
 		{{ pffSettings.customCss | raw }}
 	</style>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-87MT3F8FTJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-87MT3F8FTJ');
+	</script>
 </head>
 <body>

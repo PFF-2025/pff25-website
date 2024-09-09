@@ -5,6 +5,28 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2024-09-09T16:17:44+00:00'
+            elementCondition: null
+            fieldUid: 066c0ee4-76c8-42c4-a89a-83cc27c1469d # Footer Columns
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9c23fda9-471c-4326-a0ff-c480d162e44b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Footer
+        uid: 3758c418-d36d-44de-8829-131c3d6d4715
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
             dateAdded: '2024-09-06T14:18:00+00:00'
             elementCondition: null
             fieldUid: 679e177d-d0a0-4beb-94c2-d052c3703718 # Custom CSS
@@ -20,9 +42,31 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: CSS
+        name: 'Custom CSS'
         uid: b6f02f76-5083-4f1b-8d43-5ce7dca3b81d
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-09T14:19:32+00:00'
+            elementCondition: null
+            fieldUid: 384449b0-0e26-4422-b8ff-20b1ed283812 # Meta Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e9b7650-34ed-4eae-8ffd-1f1e4fbff7f9
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Meta Tags'
+        uid: 6bc90483-6b0a-4c75-9160-001a835d9319
+        userCondition: null
 handle: pffSettings
-name: 'PFF Settings'
+name: Settings
 sortOrder: 1

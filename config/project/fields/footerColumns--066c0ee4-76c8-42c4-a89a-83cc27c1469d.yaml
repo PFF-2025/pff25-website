@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: footerColumns
+instructions: null
+name: 'Footer Columns'
+searchable: false
+settings:
+  createButtonLabel: 'New column'
+  entryTypes:
+    - cecd9584-5020-49c3-82ae-0a510a7bfe69 # Content Block
+    - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Html Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
