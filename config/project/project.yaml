@@ -1,4 +1,4 @@
-dateModified: 1725907602
+dateModified: 1725908970
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -48,6 +48,14 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  cp-css:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      additionalCss: ".ck-content a.link-with-arrow::before {\r\n\tcontent: \"→\";\r\n\tmargin-right: 0.4em;\r\n}"
+      cacheBusting: true
+      cssFile: ''
   doxter:
     edition: standard
     enabled: true
