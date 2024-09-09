@@ -40,10 +40,8 @@ toolbar:
   - numberedList
   - outdent
   - indent
-  - blockQuote
   - horizontalLine
   - '|'
-  - mediaEmbed
   - insertTable
   - '|'
   - undo
@@ -51,4 +49,3 @@ toolbar:
   - removeFormat
   - htmlEmbed
   - sourceEditing
-  - createEntry

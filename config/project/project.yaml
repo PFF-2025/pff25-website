@@ -1,4 +1,4 @@
-dateModified: 1725908970
+dateModified: 1725910456
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -53,7 +53,7 @@ plugins:
     enabled: true
     schemaVersion: 2.0.0
     settings:
-      additionalCss: ".ck-content a.link-with-arrow::before {\r\n\tcontent: \"→\";\r\n\tmargin-right: 0.4em;\r\n}"
+      additionalCss: "@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');\r\n\r\n.ck.ck-content {\r\n\tfont-family: 'Rubik', sans-serif;\r\n}\r\n\r\n.ck.ck-content h1 {\r\n\tfont-weight: normal;\r\n\tfont-size: 36px;\r\n}\r\n.ck.ck-content h2 {\r\n\tfont-weight: normal;\r\n\tfont-size: 22px;\r\n}\r\n.ck.ck-content h3 {\r\n\tfont-size: 16px;\r\n}\r\n\r\n.ck.ck-content a.link-with-arrow::before {\r\n\tcontent: \"→\";\r\n\tmargin-right: 0.4em;\r\n}\r\n\r\n.ck.ck-content hr {\r\n\tbackground: #3f4d5a;\r\n\theight: 1px;\r\n}"
       cacheBusting: true
       cssFile: ''
   doxter:

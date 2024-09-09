@@ -162,6 +162,13 @@ h2 {
 	margin-inline: 0;
 }
 
+.ck-content hr {
+	background: currentcolor;
+	border: 0;
+	height: 1px;
+	margin: 15px 0;
+}
+
 /* Language Switch */
 .language-switch {
     text-align: center;
