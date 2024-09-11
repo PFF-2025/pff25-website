@@ -4,9 +4,8 @@ instructions: null
 name: HTML
 searchable: false
 settings:
-  availableTransforms: ''
-  availableVolumes:
-    - 268e30b2-361d-4b81-9e08-483bbc18f966 # Page Uploads
+  availableTransforms: '*'
+  availableVolumes: '*'
   ckeConfig: 5a767868-c714-4d14-9887-bc3696500f7b # Fancy
   createButtonLabel: null
   defaultTransform: null

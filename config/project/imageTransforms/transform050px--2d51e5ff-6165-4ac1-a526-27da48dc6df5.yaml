@@ -1,11 +1,11 @@
 fill: null
 format: null
-handle: hundredpx
-height: null
+handle: transform050px
+height: 50
 interlace: none
-mode: crop
-name: 100px
+mode: fit
+name: 050px
 position: center-center
 quality: null
 upscale: false
-width: 100
+width: 50

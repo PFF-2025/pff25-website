@@ -9,7 +9,6 @@ options:
       - 'imageStyle:alignLeft'
       - 'imageStyle:alignCenter'
       - 'imageStyle:alignRight'
-      - toggleImageCaption
       - imageTextAlternative
       - transformImage
   link:

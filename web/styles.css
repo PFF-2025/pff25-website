@@ -149,14 +149,23 @@ h2 {
 
 /* CKE Styles */
 
-.ck-content .image-style-align-center {
+.ck-content .image {
 	display: flex;
     justify-content: center;
+	margin: .9em auto;
 }
-.ck-content .image-style-align-right {
+.ck-content .image.image-style-align-left {
+	display: flex;
+    justify-content: left;
+}
+.ck-content .image.image-style-align-right {
 	display: flex;
     justify-content: right;
 }
+.ck-content .image img {
+	height: auto;
+}
+
 .ck-content p {
 	margin-block: 1em;
 	margin-inline: 0;
