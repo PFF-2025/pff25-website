@@ -3,14 +3,14 @@
 <div class="papecontent">
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
-			{% if block.type == 'pageBlock' %}
+			{% if block.type == 'pageBlock' and block.html %}
 				<div class="pageblock pageblock--{{block.blockStyle}}">
 					<div class="pageblock__content ck-content">
 						{{ block.html|raw }}
 					</div>
 				</div>
 			{% endif %}
-			{% if block.type == 'htmlBlock' %}
+			{% if block.type == 'htmlBlock' and block.code %}
 				{{ block.code|raw }}
 			{% endif %}
 		{% endfor %}
