@@ -5,6 +5,11 @@
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageBlock' and block.html %}
 				<div class="pageblock pageblock--{{block.blockStyle}}">
+					{% if block.kontur %}
+						<div class="pageblock__kontur">
+							{% include 'kontur.svg.twig' %}
+						</div>
+					{% endif %}
 					<div class="pageblock__content ck-content">
 						{{ block.html|raw }}
 					</div>

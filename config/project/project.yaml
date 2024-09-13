@@ -1,4 +1,4 @@
-dateModified: 1726084405
+dateModified: 1726219791
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -25,6 +25,7 @@ meta:
     268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
     283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
     618e4923-3b9b-493f-a1c8-f33aba1400c1: Französisch # Französisch
+    673f9bd1-3a54-42af-a6b2-e92198b5be01: 'Kontur oben anzeigen' # Kontur oben anzeigen
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
     01562c2b-ccc9-49e5-963b-bfb78ae58e77: 800px # 800px
     384449b0-0e26-4422-b8ff-20b1ed283812: 'Meta Description' # Meta Description
