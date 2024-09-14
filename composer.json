@@ -25,6 +25,7 @@
     "craftcms/cms": "5.4.3",
     "doublesecretagency/craft-cpcss": "3.0.0",
     "nystudio107/craft-code-field": "5.0.0",
+    "olivestudio/craft-olivemenus": "5.0.0",
     "spacemonk/craft-language-manager": "1.1.0",
     "verbb/doxter": "6.0.0",
     "vlucas/phpdotenv": "^5.4.0"

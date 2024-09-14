@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "437da14f824eb1906532ea83b8c902a4",
+    "content-hash": "ccb3fb661dad1b79f895a87619e2a6f9",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1825,6 +1825,59 @@
                 "issues": "https://github.com/nystudio107/craft-code-field/issues"
             },
             "time": "2024-04-15T17:34:05+00:00"
+        },
+        {
+            "name": "olivestudio/craft-olivemenus",
+            "version": "5.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OliveStudio/olivemenus/zipball/22cb677a589e56d64f6bfd49d0f74c031ba55491",
+                "reference": "22cb677a589e56d64f6bfd49d0f74c031ba55491",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Olivemenus",
+                "handle": "olivemenus",
+                "hasCpSettings": false,
+                "hasCpSection": true,
+                "changelogUrl": "https://raw.githubusercontent.com/OliveStudio/olivemenus/master/CHANGELOG.md",
+                "components": {
+                    "olivemenusService": "olivestudio\\olivemenus\\services\\OlivemenusService"
+                },
+                "class": "olivestudio\\olivemenus\\Olivemenus"
+            },
+            "autoload": {
+                "psr-4": {
+                    "olivestudio\\olivemenus\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Olive Studio",
+                    "homepage": "https://www.olivestudio.net/"
+                }
+            ],
+            "description": "A powerful menus plugin for Craft 4 built for the need of simplicity and flexibility",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "olivemenus"
+            ],
+            "support": {
+                "docs": "https://github.com/OliveStudio/olivemenus/blob/master/README.md",
+                "issues": "https://github.com/OliveStudio/olivemenus/issues"
+            },
+            "time": "2024-07-29T11:27:08+00:00"
         },
         {
             "name": "paragonie/constant_time_encoding",

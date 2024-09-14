@@ -1,4 +1,4 @@
-dateModified: 1726306397
+dateModified: 1726306922
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -71,6 +71,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 0.0.0
+  olivemenus:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.11
 system:
   edition: solo
   live: true

@@ -1,6 +1,29 @@
 {% include "_header.twig" %}
-
-<div class="papecontent">
+<div class="pagemenu pagemenu--desktop" id="desktop-menu">
+	<div class="logo">
+		<a href="/">
+			<img src="/img/logo_weiss.svg" alt="Horizont Logo" />
+		</a>
+	</div>
+	{{ craft.olivemenus.getMenuHTML('main') }}
+</div>
+<div class="pagemenu pagemenu--mobile" id="mobile-menu">
+	<div class="logo">
+		<a href="/">
+			<img src="/img/logo_weiss_schriftzug.svg" alt="Horizont Logo" />
+		</a>
+	</div>
+	<a class="menu-opener" onclick="toggleMobileMenu()">
+		<i class="icon-menu"></i>
+	</a>
+	<a class="menu-closer" onclick="toggleMobileMenu()">
+		<i class="icon-close"></i>
+	</a>
+	<div class="menu-popup">
+		{{ craft.olivemenus.getMenuHTML('main') }}
+	</div>
+</div>
+<div class="pagecontent">
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageBlock' and block.html %}

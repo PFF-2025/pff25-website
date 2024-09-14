@@ -95,6 +95,127 @@ h2 {
 	font-weight: normal;
 }
 
+/* Menu */
+.pagemenu {
+	background: var(--color-green);
+	color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.pagemenu.pagemenu--desktop {
+	display: none;
+}
+@media (min-width: 768px) {
+	.pagemenu.pagemenu--desktop {
+		display: flex;
+	}
+	.pagemenu.pagemenu--mobile {
+		display: none;
+	}
+}
+.pagemenu .logo img {
+	height: 40px;
+	margin-left: 20px;
+}
+@media (max-width: 767.9999px) {
+	.pagemenu .menu {
+		height: 100%;
+		width: 100%;
+	}
+	.pagemenu ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: right;
+		align-items: flex-start;
+		list-style: none;
+		text-transform: uppercase;
+		padding-left: 27px;
+		margin-top: 20px;
+	}
+	.pagemenu li {
+		font-size: 26px;
+		white-space: nowrap;
+		display: block;
+		width: 100%;
+	}
+	.pagemenu li a {
+		padding: 5px 0;
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+	.pagemenu .menu {
+		height: 100%;
+	}
+	.pagemenu ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: right;
+		align-items: center;
+		list-style: none;
+		text-transform: uppercase;
+		height: 100%;
+		margin: 0 1rem;
+	}
+	.pagemenu li{
+		font-size: 18px;
+		margin: 0 0.8rem;
+	}
+}
+@media (min-width: 1024px) {
+	.pagemenu li {
+		font-size: 22px;
+		margin: 0 1rem;
+	}
+}
+.pagemenu li a {
+	color: white;
+}
+.pagemenu li a:hover {
+	color: var(--color-lila);
+}
+
+.pagemenu--mobile .menu-popup {
+	position: fixed;
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: calc(100vh - 80px);
+	background: var(--color-green);
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pagemenu--mobile.open .menu-popup {
+	display: flex;
+}
+
+.menu-opener,
+.menu-closer {
+	font-size: 40px;
+	padding: 0 1rem;
+	cursor: pointer;
+	color: white;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.menu-closer {
+	display: none;
+}
+.pagemenu--mobile.open .menu-closer {
+	display: flex;
+}
+.pagemenu--mobile.open .menu-opener {
+	display: none;
+}
+
 
 /* Page Blocks */
 .pageblock {
@@ -103,6 +224,10 @@ h2 {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+}
+
+.pagecontent>div:first-child {
+	padding-top: 80px;
 }
 
 .pageblock.pageblock--blue {
@@ -152,7 +277,7 @@ h2 {
 	height: 20px;
 	margin-top: -19px;
 }
-@media (min-width: 640px) {
+@media (min-width: 768px) {
 	.pageblock__kontur {
 		height: 40px;
 		margin-top: -39px;
@@ -211,6 +336,7 @@ h2 {
 /* HERO IMAGE */
 .hero-main {
 	margin-block-start: 0 !important;
+	padding-top: 0 !important;
 }
 
 .hero-desktop {
@@ -271,7 +397,7 @@ h2 {
 	flex-direction: column;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
 	.footer__content {
 		display: flex;
 		justify-content: center;
