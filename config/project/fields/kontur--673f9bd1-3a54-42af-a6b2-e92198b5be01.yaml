@@ -4,7 +4,7 @@ instructions: null
 name: 'Kontur oben anzeigen'
 searchable: false
 settings:
-  default: true
+  default: false
   offLabel: null
   onLabel: null
 translationKeyFormat: null
