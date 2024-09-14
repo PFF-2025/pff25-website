@@ -2,6 +2,9 @@ name: Deploy Website to DEV
 run-name: ${{ github.actor }} deployed the website to dev
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - dev
 jobs:
   deploy:
     runs-on: ubuntu-latest
