@@ -1,5 +1,5 @@
 # Change to project directory
-cd /home/coduzudy/public_html/craftcms
+cd /home/coduzudy/public_html/dev
 
 # Fetch new code:
 git pull
