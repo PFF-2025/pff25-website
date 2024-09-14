@@ -1,10 +1,11 @@
-name: Deploy Website
-run-name: ${{ github.actor }} deployed the website
+name: Deploy Website to DEV
+run-name: ${{ github.actor }} deployed the website to dev
 on:
   workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/dev'
     steps:
       - name: Deploy Website
         uses: appleboy/ssh-action@v1.0.3
@@ -12,4 +13,4 @@ jobs:
           host: pff25.ch
           username: coduzudy
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: ~/deploy.sh
+          script: ~/deploy_dev.sh
