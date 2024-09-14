@@ -1,10 +1,11 @@
 name: Deploy Website
-run-name: ${{ github.actor }} deployed the website
+run-name: ${{ github.actor }} deployed the website to production
 on:
   workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
     steps:
       - name: Deploy Website
         uses: appleboy/ssh-action@v1.0.3
