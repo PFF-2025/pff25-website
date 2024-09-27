@@ -1,4 +1,4 @@
 <?php
 return [
-	'assetVersion' => '1',
+	'assetVersion' => '2',
 ];
