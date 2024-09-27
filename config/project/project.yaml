@@ -1,4 +1,4 @@
-dateModified: 1726306922
+dateModified: 1727443071
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -17,8 +17,8 @@ meta:
     2d51e5ff-6165-4ac1-a526-27da48dc6df5: 050px # 050px
     3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
-    47d2643e-005f-4d89-918d-f4589848d9cd: PageBlock # PageBlock
-    60b1f1e4-1407-418f-878a-63e8394db8d1: 'Html Block' # Html Block
+    47d2643e-005f-4d89-918d-f4589848d9cd: 'Content Block' # Content Block
+    60b1f1e4-1407-418f-878a-63e8394db8d1: 'Code Block (HTML)' # Code Block (HTML)
     066c0ee4-76c8-42c4-a89a-83cc27c1469d: 'Footer Columns' # Footer Columns
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style

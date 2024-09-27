@@ -54,10 +54,10 @@ fieldLayouts:
         name: Content
         uid: 015ca4ca-aa8c-446d-b826-f42fc54f2bb7
         userCondition: null
-handle: htmlBlock
+handle: pageCodeBlock
 hasTitleField: false
 icon: code
-name: 'Html Block'
+name: 'Code Block (HTML)'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: ''

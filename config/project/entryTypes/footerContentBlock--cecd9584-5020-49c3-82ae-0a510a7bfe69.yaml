@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  2fe9e67f-73ce-468b-a768-503b93e65fb8:
+  1bb06d3d-f987-406d-aa5a-d76b6d2d26a1:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-05T13:55:50+00:00'
+            dateAdded: '2024-09-09T16:19:37+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,12 +31,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 05169cd5-a016-4ef7-a159-f20c1dd4e5bf
+            uid: 1cb2e2ad-eaf7-4231-833b-87008778ef47
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-05T13:58:57+00:00'
+            dateAdded: '2024-09-09T16:21:12+00:00'
             elementCondition: null
             fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # HTML
             handle: null
@@ -47,50 +47,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a5db6705-c19c-440d-a07d-ff1f28d23c76
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-09-05T14:02:15+00:00'
-            elementCondition: null
-            fieldUid: 90aa4796-f6b1-42a3-a940-f679702b5518 # Block Style
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 616a0863-053d-43b6-9769-425ce1114996
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2024-09-13T09:22:33+00:00'
-            elementCondition: null
-            fieldUid: 673f9bd1-3a54-42af-a6b2-e92198b5be01 # Kontur oben anzeigen
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 710f0bd1-7dc1-45e6-9463-8452166e8913
+            uid: e93cfc32-69dd-467e-81fc-7ec32f03ce9e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: a7b74978-b86f-4e4f-b1f3-343cfc51143e
+        uid: 778d43a7-250f-46de-9b9e-c58d99d5a1e1
         userCondition: null
-handle: pageBlock
+handle: footerContentBlock
 hasTitleField: false
-icon: shapes
-name: PageBlock
-showSlugField: true
+icon: paragraph
+name: 'Content Block'
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: ''
 slugTranslationMethod: site

@@ -6,8 +6,8 @@ searchable: false
 settings:
   createButtonLabel: 'Add Block'
   entryTypes:
-    - 47d2643e-005f-4d89-918d-f4589848d9cd # PageBlock
-    - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Html Block
+    - 47d2643e-005f-4d89-918d-f4589848d9cd # Content Block
+    - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Code Block (HTML)
   includeTableView: false
   maxEntries: null
   minEntries: null

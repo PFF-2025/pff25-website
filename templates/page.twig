@@ -1,32 +1,10 @@
 {% include "_header.twig" %}
-<div class="pagemenu pagemenu--desktop" id="desktop-menu">
-	<div class="logo">
-		<a href="/">
-			<img src="/img/logo_weiss.svg" alt="Horizont Logo" />
-		</a>
-	</div>
-	{{ craft.olivemenus.getMenuHTML('main') }}
-</div>
-<div class="pagemenu pagemenu--mobile" id="mobile-menu">
-	<div class="logo">
-		<a href="/">
-			<img src="/img/logo_weiss_schriftzug.svg" alt="Horizont Logo" />
-		</a>
-	</div>
-	<a class="menu-opener" onclick="toggleMobileMenu()">
-		<i class="icon-menu"></i>
-	</a>
-	<a class="menu-closer" onclick="toggleMobileMenu()">
-		<i class="icon-close"></i>
-	</a>
-	<div class="menu-popup">
-		{{ craft.olivemenus.getMenuHTML('main') }}
-	</div>
-</div>
+{% include "menu.twig" %}
+
 <div class="pagecontent">
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
-			{% if block.type == 'pageBlock' and block.html %}
+			{% if block.type == 'pageContentBlock' and block.html %}
 				<div class="pageblock pageblock--{{block.blockStyle}}">
 					{% if block.kontur %}
 						<div class="pageblock__kontur">
@@ -38,7 +16,7 @@
 					</div>
 				</div>
 			{% endif %}
-			{% if block.type == 'htmlBlock' and block.code %}
+			{% if block.type == 'pageCodeBlock' and block.code %}
 				{{ block.code|raw }}
 			{% endif %}
 		{% endfor %}

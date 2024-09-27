@@ -5,12 +5,12 @@
 			<div class="footer__columns">
 				{% for block in pffSettings.footerColumns.all() %}
 					<div class="footer__column">
-						{% if block.type == 'contentBlock' %}
+						{% if block.type == 'footerContentBlock' %}
 							<div class="ck-content">
 								{{ block.html|raw }}
 							</div>
 						{% endif %}
-						{% if block.type == 'htmlBlock' %}
+						{% if block.type == 'pageCodeBlock' %}
 							{{ block.code|raw }}
 						{% endif %}
 					</div>

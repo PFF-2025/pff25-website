@@ -127,32 +127,47 @@ h2 {
 		height: 100%;
 		width: 100%;
 	}
-	.pagemenu ul {
+	.pagemenu .menu ul {
 		display: flex;
 		flex-direction: column;
 		justify-content: right;
 		align-items: flex-start;
 		list-style: none;
 		text-transform: uppercase;
-		padding-left: 27px;
+		padding-left: 21px;
 		margin-top: 20px;
 	}
-	.pagemenu li {
+	.pagemenu .menu li {
 		font-size: 26px;
 		white-space: nowrap;
 		display: block;
 		width: 100%;
 	}
-	.pagemenu li a {
+	.pagemenu .menu li a {
 		padding: 5px 0;
 		display: block;
+	}
+
+	.pagemenu .menu li a::after {
+		content: "\e903";
+		margin-left: 0.8em;
+		font-family: 'icomoon' !important;
+		speak: never;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		font-size: 85%;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 }
 @media (min-width: 768px) {
 	.pagemenu .menu {
 		height: 100%;
 	}
-	.pagemenu ul {
+	.pagemenu .menu ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: right;
@@ -162,21 +177,21 @@ h2 {
 		height: 100%;
 		margin: 0 1rem;
 	}
-	.pagemenu li{
+	.pagemenu .menu li{
 		font-size: 18px;
 		margin: 0 0.8rem;
 	}
 }
 @media (min-width: 1024px) {
-	.pagemenu li {
+	.pagemenu .menu li {
 		font-size: 22px;
 		margin: 0 1rem;
 	}
 }
-.pagemenu li a {
+.pagemenu .menu li a {
 	color: white;
 }
-.pagemenu li a:hover {
+.pagemenu .menu li a:hover {
 	color: var(--color-lila);
 }
 
@@ -214,6 +229,43 @@ h2 {
 }
 .pagemenu--mobile.open .menu-opener {
 	display: none;
+}
+
+.menu-popup__bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.menu-popup__bottom svg {
+	width: 100%;
+	height: 100%;
+	margin-top: 1px;
+}
+.menu-popup__bottom svg #kontur {
+	fill: white;
+}
+.menu-popup__bottom-content {
+	background: white;
+	color: var(--color-green);
+}
+
+.menu-popup__bottom-content li a {
+	color: var(--color-green);
+}
+
+.menu-popup__language-switch ul {
+	list-style: none;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.menu-popup__language-switch li {
+	display: flex;
+	width: auto;
+	padding: 20px 10px;
+	font-size: 22px;
 }
 
 
