@@ -3,6 +3,7 @@
 Start project locally with DDEV:
     
 ```bash
+php composer.phar install
 ddev start
 ```
 Import Database from backup.sql file
