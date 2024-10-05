@@ -10,6 +10,7 @@
 	--color-beige: #dbd0af;
 	--color-linde: #d3fd7e;
 	--color-rost: #cd4117;
+	--color-white: #ffffff;
 }
 
 /* Reset CSS */
@@ -73,6 +74,19 @@ a.link-with-arrow::before {
 	font-size: 85%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.link-button {
+	background: var(--color-blue);
+	color: white;
+	padding: 0.8em 1.5em;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin-right: 10px;
+}
+.link-button:hover {
+	background: var(--color-lila);
+	color: white;
 }
 
 [class^="icon-"],
@@ -292,6 +306,14 @@ h2 {
 .pageblock.pageblock--blue a:hover {
 	opacity: 0.8;
 }
+.pageblock.pageblock--blue a.link-button {
+	color: var(--color-white);
+	background: var(--color-green);
+}
+.pageblock.pageblock--blue a.link-button:hover {
+	opacity: 1;
+	background: var(--color-lila);
+}
 
 .pageblock.pageblock--green {
 	background: var(--color-green);
@@ -313,6 +335,13 @@ h2 {
 }
 .pageblock.pageblock--lila a:hover {
 	opacity: 0.6;
+}
+.pageblock.pageblock--lila a.link-button {
+	color: var(--color-white);
+}
+.pageblock.pageblock--lila a.link-button:hover {
+	opacity: 1;
+	background: var(--color-green);
 }
 
 .pageblock__content {

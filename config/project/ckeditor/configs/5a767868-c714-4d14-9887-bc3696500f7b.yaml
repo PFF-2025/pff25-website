@@ -14,6 +14,11 @@ options:
   link:
     addTargetToExternalLinks: true
     decorators:
+      isButton:
+        attributes:
+          class: link-button
+        label: Button
+        mode: manual
       isWitharrow:
         attributes:
           class: link-with-arrow
