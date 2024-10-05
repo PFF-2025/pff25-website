@@ -6,4 +6,5 @@
 /web/images/
 /web/documents/
 /config/license.key*
+/config/asset_version.php
 /.htaccess
