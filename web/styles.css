@@ -407,6 +407,9 @@ h2 {
 	margin-block: 1em;
 	margin-inline: 0;
 }
+.ck-content li p {
+	margin-block: 0;
+}
 
 .ck-content hr {
 	background: currentcolor;
