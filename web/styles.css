@@ -21,6 +21,7 @@
 	margin: 0;
 }
 body {
+	font-size: 18px;
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
