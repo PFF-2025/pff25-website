@@ -483,6 +483,10 @@ h2 {
 }
 
 /* Footer */
+.footer {
+	font-size: 15px;
+}
+
 .footer__columns {
 	margin: 48px 0;
 	display: flex;
@@ -492,6 +496,9 @@ h2 {
 }
 
 @media (min-width: 768px) {
+	.footer {
+		font-size: 16px;
+	}
 	.footer__content {
 		display: flex;
 		justify-content: center;
@@ -512,7 +519,7 @@ h2 {
 
 /* Language Switch */
 .language-switch {
-    text-align: right;
+	text-align: right;
 	display: block;
 	border-top: 1px solid var(--color-green);
 	padding: 5px 10px;
