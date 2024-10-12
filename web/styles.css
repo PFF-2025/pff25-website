@@ -413,6 +413,9 @@ h2 {
 	margin-block: 1em;
 	margin-inline: 0;
 }
+.ck-content ul {
+	margin-block: 1em;
+}
 .ck-content li p {
 	margin-block: 0;
 }
