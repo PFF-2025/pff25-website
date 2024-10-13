@@ -2,6 +2,7 @@
 /.idea
 /vendor
 .DS_Store
+/web/bands/
 /web/pageuploads/
 /web/images/
 /web/documents/

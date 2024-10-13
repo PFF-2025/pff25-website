@@ -1,0 +1,40 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - d898aa9b-2eb8-45c2-803d-f1edfcc78cf1 # Band
+handle: bands
+maxAuthors: 1
+name: Bands
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  618e4923-3b9b-493f-a1c8-f33aba1400c1: # Französisch
+    enabledByDefault: true
+    hasUrls: true
+    template: band/_entry.twig
+    uriFormat: 'band/{slug}'
+  a3efe0c5-c237-4131-9622-414a98183477: # Italienisch
+    enabledByDefault: true
+    hasUrls: true
+    template: band/_entry.twig
+    uriFormat: 'band/{slug}'
+  f02ed8f0-43c2-4b64-a754-d824ee40e9af: # Deutsch
+    enabledByDefault: true
+    hasUrls: true
+    template: band/_entry.twig
+    uriFormat: 'band/{slug}'
+structure:
+  maxLevels: null
+  uid: 14360c5d-a1d2-4cf1-8491-47dfa119fb86
+type: structure

@@ -19,6 +19,15 @@
 			{% if block.type == 'pageCodeBlock' and block.code %}
 				{{ block.code|raw }}
 			{% endif %}
+			{% if block.type == 'bandBlock' %}
+				{% if block.bandlist | length %}
+					<div class="bandblock">
+						{% for band in block.bandlist.all() %}
+							{% include 'band.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>

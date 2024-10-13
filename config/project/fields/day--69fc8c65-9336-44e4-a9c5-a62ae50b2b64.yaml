@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: day
+instructions: null
+name: Day
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Freitag 29.8'
+        -
+          - value
+          - fr
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Samstag 30.8'
+        -
+          - value
+          - sa
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Sonntag 31.8'
+        -
+          - value
+          - so
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

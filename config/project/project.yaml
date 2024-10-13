@@ -1,4 +1,45 @@
-dateModified: 1728137235
+dateModified: 1728819136
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - link
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:529b9251-a976-484a-b9e2-3f7a7beb420c' # Bands
+      tableAttributes:
+        - status
+        - 'field:5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa' # Stage
+        - 'field:69fc8c65-9336-44e4-a9c5-a62ae50b2b64' # Day
+        - 'field:66a41ec7-003b-4f6a-840b-6565cfffe2db' # Time
+        - 'field:4a805b89-1a04-4979-8d05-ec829eaf289a' # Bild
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:e096e3ed-d074-4ad7-b8ad-ef51cf15015c' # Pages
+      tableAttributes:
+        - status
+        - dateUpdated
+        - uri
+      type: native
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -16,18 +57,27 @@ meta:
     2d6dc998-a631-473b-aabb-607795249864: 300px # 300px
     2d51e5ff-6165-4ac1-a526-27da48dc6df5: 050px # 050px
     3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
+    4a805b89-1a04-4979-8d05-ec829eaf289a: Bild # Bild
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
+    6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
+    14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
+    30a40700-7cdb-4906-9fb5-1fc34b7e154e: Bands # Bands
     47d2643e-005f-4d89-918d-f4589848d9cd: 'Content Block' # Content Block
     60b1f1e4-1407-418f-878a-63e8394db8d1: 'Code Block (HTML)' # Code Block (HTML)
+    66a41ec7-003b-4f6a-840b-6565cfffe2db: Time # Time
     066c0ee4-76c8-42c4-a89a-83cc27c1469d: 'Footer Columns' # Footer Columns
+    69fc8c65-9336-44e4-a9c5-a62ae50b2b64: Day # Day
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
     268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
     283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
+    438e519b-fd8a-4b06-b94c-e7232e751a58: 'Band Block' # Band Block
+    529b9251-a976-484a-b9e2-3f7a7beb420c: Bands # Bands
     618e4923-3b9b-493f-a1c8-f33aba1400c1: Französisch # Französisch
     673f9bd1-3a54-42af-a6b2-e92198b5be01: 'Kontur oben anzeigen' # Kontur oben anzeigen
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
     01562c2b-ccc9-49e5-963b-bfb78ae58e77: 800px # 800px
+    5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa: Stage # Stage
     384449b0-0e26-4422-b8ff-20b1ed283812: 'Meta Description' # Meta Description
     419709be-2d90-4e34-9572-8efb3108bd45: 'Code (HTML)' # Code (HTML)
     85641352-280c-481a-98ed-9cef22cca8f7: Documents # Documents

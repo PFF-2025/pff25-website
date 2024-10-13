@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: bandlist
+instructions: null
+name: 'Band Liste'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:529b9251-a976-484a-b9e2-3f7a7beb420c' # Bands
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

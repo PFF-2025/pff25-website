@@ -390,6 +390,36 @@ h2 {
 	fill: var(--color-green);
 }
 
+.bandblock {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	align-items: center;
+	flex-direction: column;
+}
+@media (min-width: 768px) {
+	.bandblock {
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch
+	}
+}
+
+.bandblock .band {
+	width: 100%;
+	max-width: 24rem;
+	margin: 10px;
+	background: var(--color-white);
+	display: flex;
+	flex-direction: column;
+	border: 20px solid var(--color-lila);
+}
+
+.bandblock .band-info {
+	padding: 10px;
+}
+
+
 /* CKE Styles */
 
 .ck-content .image {

@@ -47,6 +47,7 @@ toolbar:
   - horizontalLine
   - '|'
   - insertTable
+  - anchor
   - '|'
   - undo
   - redo
