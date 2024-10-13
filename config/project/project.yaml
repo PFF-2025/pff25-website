@@ -1,4 +1,4 @@
-dateModified: 1728837140
+dateModified: 1728839830
 elementSources:
   craft\elements\Entry:
     -
@@ -28,6 +28,7 @@ elementSources:
         - 'field:69fc8c65-9336-44e4-a9c5-a62ae50b2b64' # Day
         - 'field:66a41ec7-003b-4f6a-840b-6565cfffe2db' # Time
         - 'field:4a805b89-1a04-4979-8d05-ec829eaf289a' # Bild
+        - uri
       type: native
     -
       defaultSort:
