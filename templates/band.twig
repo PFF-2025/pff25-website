@@ -1,6 +1,6 @@
 <div class="band">
 	{% if band.image.one() %}
-		<img src="{{ band.image.one().url }}" alt="{{ band.image.one().title }}">
+		<div class="band-image" style="background-image: url('{{ band.image.one().url }}')"></div>
 	{% endif %}
 	<div class="band-info">
 		<h2>{{ band.title }}</h2>

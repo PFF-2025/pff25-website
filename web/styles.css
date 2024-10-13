@@ -413,12 +413,23 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	border: 20px solid var(--color-lila);
+	overflow: hidden;
 }
 
 .bandblock .band-info {
 	padding: 10px;
 }
 
+.bandblock .band-image {
+	height: 180px;
+	background-position: center center;
+	background-size: cover;
+	transition: transform 0.5s ease;
+}
+
+.band:hover .band-image {
+	transform: scale(1.1);
+}
 
 /* CKE Styles */
 
