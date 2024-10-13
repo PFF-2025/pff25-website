@@ -15,7 +15,7 @@ settings:
           - main
         -
           - default
-          - ''
+          - '1'
     -
       __assoc__:
         -
@@ -39,5 +39,5 @@ settings:
           - default
           - ''
 translationKeyFormat: null
-translationMethod: language
+translationMethod: none
 type: craft\fields\Dropdown

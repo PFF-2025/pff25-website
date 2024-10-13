@@ -130,7 +130,7 @@ fieldLayouts:
             uid: a900b60e-6ad5-494c-b738-d22d90777292
             userCondition: null
             warning: null
-            width: 100
+            width: 50
         name: Content
         uid: c1db6fc0-97c8-4b11-aadd-07ed50e01a49
         userCondition: null

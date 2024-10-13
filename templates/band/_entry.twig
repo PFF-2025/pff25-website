@@ -1,15 +1,36 @@
 {% include "_header.twig" %}
 {% include "menu.twig" %}
 
-<div class="pagecontent">
+<div class="pagecontent band-page">
 	<div class="pageblock">
 		<div class="pageblock__content">
 			{% if entry.image.one() %}
-				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" style="width: 100%">
+				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" class="band-image">
 			{% endif %}
 
-			<h2>{{ entry.title }}</h2>
-			<p>{{ entry.shortDescription }}</p>
+			<h1>{{ entry.title }}</h1>
+			<div class="band-date">
+				{{ entry.day | translateDay}}, {{ entry.stage | translateStage}}
+			</div>
+			<p>{{ entry.html | raw }}</p>
+
+			<div class="band-links">
+				{% if entry.instagram %}
+					<a href="{{ entry.instagram }}" target="_blank">Instagram</a>
+				{% endif %}
+				{% if entry.facebook %}
+					<a href="{{ entry.facebook }}" target="_blank">Facebook</a>
+				{% endif %}
+				{% if entry.spotify %}
+					<a href="{{ entry.spotify }}" target="_blank">Spotify</a>
+				{% endif %}
+				{% if entry.youtube %}
+					<a href="{{ entry.youtube }}" target="_blank">Youtube</a>
+				{% endif %}
+				{% if entry.webseite %}
+					<a href="{{ entry.webseite }}" target="_blank">{{ entry.webseite }}</a>
+				{% endif %}
+			</div>
 		</div>
 	</div>
 </div>

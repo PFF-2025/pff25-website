@@ -155,6 +155,25 @@
 	transform: scale(1.1);
 }
 
+.band-page .band-links {
+	margin-top: 20px;
+}
+
+.band-page .band-links a {
+	margin-top: 5px;
+	display: block;
+}
+
+.band-page .band-image {
+	width: 100%;
+	border: 20px solid var(--color-lila);
+}
+.band-page .band-date {
+	color: var(--color-lila);
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
 /* CKE Styles */
 
 .ck-content .image {

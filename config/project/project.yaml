@@ -1,4 +1,4 @@
-dateModified: 1728839830
+dateModified: 1728846389
 elementSources:
   craft\elements\Entry:
     -
@@ -119,6 +119,10 @@ plugins:
       additionalCss: "@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');\r\n\r\n:root {\r\n\t--color-green: #027755;\r\n\t--color-blue: #001259;\r\n\t--color-lila: #C092FF;\r\n\t--color-petrol: #30969e;\r\n\t--color-beige: #dbd0af;\r\n\t--color-linde: #d3fd7e;\r\n\t--color-rost: #cd4117;\r\n}\r\n\r\n.ck.ck-content {\r\n\tfont-family: 'Rubik', sans-serif;\r\n}\r\n\r\n.ck.ck-content h1 {\r\n\tfont-weight: normal;\r\n\tfont-size: 36px;\r\n}\r\n.ck.ck-content h2 {\r\n\tfont-weight: normal;\r\n\tfont-size: 22px;\r\n}\r\n.ck.ck-content h3 {\r\n\tfont-size: 16px;\r\n}\r\n\r\n.ck.ck-content a.link-with-arrow::before {\r\n\tcontent: \"→\";\r\n\tmargin-right: 0.4em;\r\n}\r\n\r\n.ck.ck-content a.link-button {\r\n\tbackground: var(--color-blue);\r\n\tcolor: white;\r\n\tpadding: 0.8em 1.5em;\r\n\tborder-radius: 0.5em;\r\n\tdisplay: inline-block;\r\n\tmargin-right: 10px;\r\n}\r\n.ck.ck-content a.link-button:hover {\r\n\tbackground: var(--color-lila);\r\n\tcolor: white;\r\n}\r\n\r\n.ck.ck-content hr {\r\n\tbackground: #3f4d5a;\r\n\theight: 1px;\r\n}"
       cacheBusting: true
       cssFile: ''
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   doxter:
     edition: standard
     enabled: true
