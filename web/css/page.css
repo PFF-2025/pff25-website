@@ -1,0 +1,249 @@
+
+/* Page Blocks */
+.pageblock {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pagecontent>div:first-child {
+	padding-top: 80px;
+}
+
+.pageblock.pageblock--blue {
+	background: var(--color-blue);
+	color: white;
+}
+.pageblock.pageblock--blue a {
+	color: var(--color-lila);
+}
+.pageblock.pageblock--blue a:hover {
+	opacity: 0.8;
+}
+.pageblock.pageblock--blue a.link-button {
+	color: var(--color-white);
+	background: var(--color-green);
+}
+.pageblock.pageblock--blue a.link-button:hover {
+	opacity: 1;
+	background: var(--color-lila);
+}
+
+.pageblock.pageblock--green {
+	background: var(--color-green);
+	color: white;
+}
+.pageblock.pageblock--green a {
+	color: var(--color-beige);
+}
+.pageblock.pageblock--green a:hover {
+	opacity: 0.8;
+}
+
+.pageblock.pageblock--lila {
+	background: var(--color-lila);
+	color: white;
+}
+.pageblock.pageblock--lila a {
+	color: var(--color-blue);
+}
+.pageblock.pageblock--lila a:hover {
+	opacity: 0.6;
+}
+.pageblock.pageblock--lila a.link-button {
+	color: var(--color-white);
+}
+.pageblock.pageblock--lila a.link-button:hover {
+	opacity: 1;
+	background: var(--color-green);
+}
+
+.pageblock__content {
+	width: 100%;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 32px;
+	padding-top: 12px;
+}
+@media (min-width: 768px) {
+	.pageblock__content {
+		max-width: 42rem; /* 672px (2xl) */
+		padding-bottom: 80px;
+		padding-top: 64px;
+	}
+}
+
+.pageblock__kontur {
+	width: 100%;
+	height: 20px;
+	margin-top: -19px;
+}
+@media (min-width: 768px) {
+	.pageblock__kontur {
+		height: 40px;
+		margin-top: -39px;
+	}
+}
+
+.pageblock__kontur svg {
+	width: 100%;
+	height: 100%;
+}
+.pageblock__kontur svg #kontur {
+	fill: white;
+}
+
+.pageblock--blue .pageblock__kontur svg #kontur {
+	fill: var(--color-blue);
+}
+.pageblock--lila .pageblock__kontur svg #kontur {
+	fill: var(--color-lila);
+}
+.pageblock--green .pageblock__kontur svg #kontur {
+	fill: var(--color-green);
+}
+
+.bandblock {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0;
+	align-items: center;
+	flex-direction: column;
+}
+@media (min-width: 768px) {
+	.bandblock {
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch
+	}
+}
+
+.bandblock .band {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px;
+	background: var(--color-white);
+	display: flex;
+	flex-direction: column;
+	border: 20px solid var(--color-lila);
+	overflow: hidden;
+}
+@media (min-width: 768px) {
+	.bandblock .band {
+		width: 24rem;
+	}
+}
+
+.bandblock .band-info {
+	padding: 10px;
+}
+
+.bandblock .band:hover {
+	color: var(--color-blue);
+}
+
+.bandblock .band-image {
+	height: 220px;
+	background-position: center center;
+	background-size: cover;
+	transition: transform 0.4s ease;
+}
+
+.band:hover .band-image {
+	transform: scale(1.1);
+}
+
+/* CKE Styles */
+
+.ck-content .image {
+	display: flex;
+	justify-content: center;
+	margin: .9em auto;
+}
+.ck-content .image.image-style-align-left {
+	display: flex;
+	justify-content: left;
+}
+.ck-content .image.image-style-align-right {
+	display: flex;
+	justify-content: right;
+}
+.ck-content .image img {
+	height: auto;
+}
+
+.ck-content p {
+	margin-block: 1em;
+	margin-inline: 0;
+}
+.ck-content ul {
+	margin-block: 1em;
+}
+.ck-content li p {
+	margin-block: 0;
+}
+
+.ck-content hr {
+	background: currentcolor;
+	border: 0;
+	height: 1px;
+	margin: 15px 0;
+}
+
+/* HERO IMAGE */
+.hero-main {
+	margin-block-start: 0 !important;
+	padding-top: 0 !important;
+}
+
+.hero-desktop {
+	background: url('/images/desktop_bg.png') no-repeat center center;
+	height: calc(100dvh - 40px);
+	width: 100%;
+	background-size: cover;
+	display: none;
+}
+@media (min-width: 640px) {
+	.hero-desktop {
+		display: block;
+	}
+}
+.hero-mobile {
+	background: url('/images/mobile_bg.png') no-repeat center center;
+	height: calc(100svh - 40px);
+	width: 100%;
+	background-size: cover;
+	display: block;
+}
+@media (min-width: 640px) {
+	.hero-mobile{
+		display: none;
+	}
+}
+.hero-arrow {
+	height: 41px;
+	border-top: 1px solid #027755;
+	border-bottom: 1px solid #027755;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.hero-arrow .hero-icon-arrow-down {
+	position: relative;
+	top: 0;
+	transition: all 0.2s ease-in-out;
+	font-size: 1.5rem; /* 24px */
+	line-height: 2rem; /* 32px */
+}
+
+.hero-arrow:hover .hero-icon-arrow-down{
+	top: 1px;
+	opacity: 0.7;
+}
+

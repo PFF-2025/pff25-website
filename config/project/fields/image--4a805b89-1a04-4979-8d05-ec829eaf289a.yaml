@@ -11,7 +11,7 @@ settings:
     - image
   branchLimit: null
   defaultUploadLocationSource: 'volume:30a40700-7cdb-4906-9fb5-1fc34b7e154e' # Bands
-  defaultUploadLocationSubpath: bands
+  defaultUploadLocationSubpath: null
   maintainHierarchy: false
   maxRelations: null
   minRelations: null

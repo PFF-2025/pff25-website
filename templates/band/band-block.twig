@@ -1,4 +1,4 @@
-<div class="band">
+<a href="{{ band.url }}" class="band">
 	{% if band.image.one() %}
 		<div class="band-image" style="background-image: url('{{ band.image.one().url }}')"></div>
 	{% endif %}
@@ -6,4 +6,4 @@
 		<h2>{{ band.title }}</h2>
 		<p>{{ band.shortDescription }}</p>
 	</div>
-</div>
+</a>

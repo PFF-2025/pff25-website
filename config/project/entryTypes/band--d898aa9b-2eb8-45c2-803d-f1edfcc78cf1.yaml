@@ -134,6 +134,92 @@ fieldLayouts:
         name: Content
         uid: c1db6fc0-97c8-4b11-aadd-07ed50e01a49
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: a7a34319-7fc3-4892-9fea-7d13cf4adb1b # Instagram
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8917658a-7bf5-414d-a659-d54a1dc7132e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: f3863ce9-d846-4699-b6b8-7ae0c4b06faf # Spotify
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 694b2c58-76a3-4e26-901d-5c665624629a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: 401ee9d8-e854-4a9d-b858-34924ce8a45d # YouTube
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8869d918-490d-407e-bbcd-af0c5d5b1bb3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: d293cad1-c4f0-47b4-98c9-bf6c3caaa5ba # Facebook
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb6345e4-c60d-43eb-a6ce-f8c4c8205999
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: 27d8fd23-5b20-4e74-93b9-a10a494c6912 # Webseite
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 156ae36c-d095-4fb0-b3bd-335466331b64
+            userCondition: null
+            warning: null
+            width: 100
+        name: Links
+        uid: b0b395cb-843f-4eba-9a6a-8e441d3b0d7e
+        userCondition: null
 handle: band
 hasTitleField: true
 icon: music

@@ -1,0 +1,17 @@
+{% include "_header.twig" %}
+{% include "menu.twig" %}
+
+<div class="pagecontent">
+	<div class="pageblock">
+		<div class="pageblock__content">
+			{% if entry.image.one() %}
+				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" style="width: 100%">
+			{% endif %}
+
+			<h2>{{ entry.title }}</h2>
+			<p>{{ entry.shortDescription }}</p>
+		</div>
+	</div>
+</div>
+
+{% include "_footer.twig" %}

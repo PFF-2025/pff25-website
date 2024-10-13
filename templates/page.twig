@@ -23,7 +23,7 @@
 				{% if block.bandlist | length %}
 					<div class="bandblock">
 						{% for band in block.bandlist.all() %}
-							{% include 'band.twig' %}
+							{% include 'band/band-block.twig' %}
 						{% endfor %}
 					</div>
 				{% endif %}
