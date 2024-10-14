@@ -79,7 +79,7 @@ a.link-with-arrow::before {
 
 .link-button {
 	background: var(--color-blue);
-	color: white;
+	color: white !important;
 	padding: 0.8em 1.5em;
 	border-radius: 0.5em;
 	display: inline-block;
@@ -87,7 +87,7 @@ a.link-with-arrow::before {
 }
 .link-button:hover {
 	background: var(--color-lila);
-	color: white;
+	color: white !important;
 }
 
 [class^="icon-"],
