@@ -88,6 +88,7 @@ a.link-with-arrow::before {
 .link-button:hover {
 	background: var(--color-lila);
 	color: white !important;
+	opacity: 1 !important;
 }
 
 [class^="icon-"],
