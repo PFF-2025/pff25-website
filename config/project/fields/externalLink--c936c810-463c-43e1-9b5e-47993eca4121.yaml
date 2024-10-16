@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: externalLink
+instructions: null
+name: Link
+searchable: false
+settings:
+  maxLength: 1000
+  typeSettings:
+    __assoc__:
+      -
+        - url
+        -
+          __assoc__:
+            -
+              - allowRootRelativeUrls
+              - ''
+            -
+              - allowAnchors
+              - ''
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\Link

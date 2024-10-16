@@ -9,6 +9,7 @@ settings:
     - 47d2643e-005f-4d89-918d-f4589848d9cd # Content Block
     - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Code Block (HTML)
     - 438e519b-fd8a-4b06-b94c-e7232e751a58 # Band Block
+    - dd5f665e-43be-4d5f-a599-b33983c14f15 # Ticket Block
   includeTableView: false
   maxEntries: null
   minEntries: null

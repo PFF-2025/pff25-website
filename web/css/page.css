@@ -105,6 +105,83 @@
 	fill: var(--color-green);
 }
 
+.ticketblock {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.ticket {
+	width: 300px;
+	box-sizing: border-box;
+	margin: 10px;
+	background: var(--color-blue);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.ticket .ticket-header {
+	width: 100%;
+	background: var(--color-green);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	padding: 15px;
+}
+
+.ticket .ticket-decoration {
+	height: 0;
+}
+.ticket .ticket-decoration-left {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+.ticket .ticket-decoration-right {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	top: -30px;
+	left: 290px;
+}
+
+.ticket .ticket-info {
+	padding: 10px 30px;
+	flex: 1;
+}
+
+.ticket .ticket-price {
+	font-weight: 600;
+	font-size: 30px;
+	color: var(--color-lila);
+}
+
+.ticket .ticket-button {
+	padding: 20px;
+	padding-top: 0;
+}
+
+.ticket .ticket-link {
+	background: var(--color-white);
+	padding: 10px 20px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	font-size: 20px;
+}
+
 .bandblock {
 	display: flex;
 	flex-wrap: wrap;
@@ -210,6 +287,19 @@
 	border: 0;
 	height: 1px;
 	margin: 15px 0;
+}
+
+.ck-content .text-tiny {
+	font-size: 12px;
+}
+.ck-content .text-small {
+	font-size: 15px;
+}
+.ck-content .text-big {
+	font-size: 24px;
+}
+.ck-content .text-huge {
+	font-size: 30px;
 }
 
 /* HERO IMAGE */

@@ -4,6 +4,12 @@ headingLevels:
   - 3
 name: Fancy
 options:
+  fontSize:
+    options:
+      - tiny
+      - small
+      - big
+      - huge
   image:
     toolbar:
       - 'imageStyle:alignLeft'
@@ -28,6 +34,7 @@ options:
     targetOptions: true
 toolbar:
   - heading
+  - fontSize
   - '|'
   - bold
   - italic

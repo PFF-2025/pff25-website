@@ -1,0 +1,21 @@
+<div class="ticket">
+	<div class="ticket-header">
+		{{ ticket.title }}
+	</div>
+	<div class="ticket-decoration">
+		<div class="ticket-decoration-left"></div>
+		<div class="ticket-decoration-right"></div>
+	</div>
+	<div class="ticket-info ck-content">
+		<p>{{ ticket.html | raw}}</p>
+		<p class="ticket-price">{{ ticket.preis}}</p>
+	</div>
+	{% if ticket.buttonText and ticket.externalLink %}
+		<div class="ticket-button">
+			<a href="{{ ticket.externalLink }}" class="ticket-link" target="_blank">
+				{{ ticket.buttonText }}
+				&nbsp;&nbsp;<i class="icon-arrow-right"></i>
+			</a>
+		</div>
+	{% endif %}
+</div>

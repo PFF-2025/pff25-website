@@ -28,6 +28,15 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'ticketBlock' %}
+				{% if block.ticketlist | length %}
+					<div class="ticketblock">
+						{% for ticket in block.ticketlist.all() %}
+							{% include 'ticket/ticket-block.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>
