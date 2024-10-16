@@ -1,6 +1,6 @@
 
 /* Page Blocks */
-.pageblock {
+.contentblock {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -12,55 +12,55 @@
 	padding-top: 80px;
 }
 
-.pageblock.pageblock--blue {
+.contentblock.contentblock--blue {
 	background: var(--color-blue);
 	color: white;
 }
-.pageblock.pageblock--blue a {
+.contentblock.contentblock--blue a {
 	color: var(--color-lila);
 }
-.pageblock.pageblock--blue a:hover {
+.contentblock.contentblock--blue a:hover {
 	opacity: 0.8;
 }
-.pageblock.pageblock--blue a.link-button {
+.contentblock.contentblock--blue a.link-button {
 	color: var(--color-white);
 	background: var(--color-green);
 }
-.pageblock.pageblock--blue a.link-button:hover {
+.contentblock.contentblock--blue a.link-button:hover {
 	opacity: 1;
 	background: var(--color-lila);
 }
 
-.pageblock.pageblock--green {
+.contentblock.contentblock--green {
 	background: var(--color-green);
 	color: white;
 }
-.pageblock.pageblock--green a {
+.contentblock.contentblock--green a {
 	color: var(--color-beige);
 }
-.pageblock.pageblock--green a:hover {
+.contentblock.contentblock--green a:hover {
 	opacity: 0.8;
 }
 
-.pageblock.pageblock--lila {
+.contentblock.contentblock--lila {
 	background: var(--color-lila);
 	color: white;
 }
-.pageblock.pageblock--lila a {
+.contentblock.contentblock--lila a {
 	color: var(--color-blue);
 }
-.pageblock.pageblock--lila a:hover {
+.contentblock.contentblock--lila a:hover {
 	opacity: 0.6;
 }
-.pageblock.pageblock--lila a.link-button {
+.contentblock.contentblock--lila a.link-button {
 	color: var(--color-white);
 }
-.pageblock.pageblock--lila a.link-button:hover {
+.contentblock.contentblock--lila a.link-button:hover {
 	opacity: 1;
 	background: var(--color-green);
 }
 
-.pageblock__content {
+.contentblock__content {
 	width: 100%;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -68,40 +68,40 @@
 	padding-top: 12px;
 }
 @media (min-width: 768px) {
-	.pageblock__content {
+	.contentblock__content {
 		max-width: 42rem; /* 672px (2xl) */
 		padding-bottom: 80px;
 		padding-top: 64px;
 	}
 }
 
-.pageblock__kontur {
+.contentblock__kontur {
 	width: 100%;
 	height: 20px;
 	margin-top: -19px;
 }
 @media (min-width: 768px) {
-	.pageblock__kontur {
+	.contentblock__kontur {
 		height: 40px;
 		margin-top: -39px;
 	}
 }
 
-.pageblock__kontur svg {
+.contentblock__kontur svg {
 	width: 100%;
 	height: 100%;
 }
-.pageblock__kontur svg #kontur {
+.contentblock__kontur svg #kontur {
 	fill: white;
 }
 
-.pageblock--blue .pageblock__kontur svg #kontur {
+.contentblock--blue .contentblock__kontur svg #kontur {
 	fill: var(--color-blue);
 }
-.pageblock--lila .pageblock__kontur svg #kontur {
+.contentblock--lila .contentblock__kontur svg #kontur {
 	fill: var(--color-lila);
 }
-.pageblock--green .pageblock__kontur svg #kontur {
+.contentblock--green .contentblock__kontur svg #kontur {
 	fill: var(--color-green);
 }
 

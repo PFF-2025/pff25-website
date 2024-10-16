@@ -5,13 +5,13 @@
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageContentBlock' and block.html %}
-				<div class="pageblock pageblock--{{block.blockStyle}}">
+				<div class="block contentblock contentblock--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
 					{% if block.kontur %}
-						<div class="pageblock__kontur">
+						<div class="contentblock__kontur">
 							{% include 'kontur.svg.twig' %}
 						</div>
 					{% endif %}
-					<div class="pageblock__content ck-content">
+					<div class="contentblock__content ck-content">
 						{{ block.html|raw }}
 					</div>
 				</div>
@@ -21,7 +21,7 @@
 			{% endif %}
 			{% if block.type == 'bandBlock' %}
 				{% if block.bandlist | length %}
-					<div class="bandblock">
+					<div class="block bandblock">
 						{% for band in block.bandlist.all() %}
 							{% include 'band/band-block.twig' %}
 						{% endfor %}
@@ -30,7 +30,7 @@
 			{% endif %}
 			{% if block.type == 'ticketBlock' %}
 				{% if block.ticketlist | length %}
-					<div class="ticketblock">
+					<div class="block ticketblock">
 						{% for ticket in block.ticketlist.all() %}
 							{% include 'ticket/ticket-block.twig' %}
 						{% endfor %}
