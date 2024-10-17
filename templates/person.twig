@@ -1,0 +1,13 @@
+{% set image = person.singleImage.one() %}
+<div class="card">
+  {% if image %}
+    <div class="card-image">
+      {{ image.getImg() }}
+    </div>
+  {% endif %}
+
+  <div class="card-content">
+    <h4>{{person.scoutname}}</h4>
+    {{person.scoutfunction}}
+  </div>
+</div>
