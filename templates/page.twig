@@ -16,6 +16,13 @@
 					</div>
 				</div>
 			{% endif %}
+			{% if entry.people | length %}
+				<div class="cardblock">
+					{% for person in entry.people.all() %}
+						{% include 'person.twig' with person %}
+					{% endfor %}
+				</div>
+			{% endif %}
 			{% if block.type == 'pageCodeBlock' and block.code %}
 				{{ block.code|raw }}
 			{% endif %}
