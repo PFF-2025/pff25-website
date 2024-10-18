@@ -256,6 +256,12 @@
 	margin-bottom: 20px;
 }
 
+.band-page iframe {
+	margin-top: 2rem;
+	width: 100%;
+	min-height: 300px;
+}
+
 .icon svg {
 	display: inline;
 	width: 20px;
