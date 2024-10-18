@@ -2,8 +2,8 @@
 {% include "menu.twig" %}
 
 <div class="pagecontent band-page">
-	<div class="pageblock">
-		<div class="pageblock__content">
+	<div class="contentblock">
+		<div class="contentblock__content">
 			{% if entry.image.one() %}
 				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" class="band-image">
 			{% endif %}
@@ -16,19 +16,37 @@
 
 			<div class="band-links">
 				{% if entry.instagram %}
-					<a href="{{ entry.instagram }}" target="_blank">Instagram</a>
+					<a href="{{ entry.instagram }}" target="_blank">
+						<span class="icon">{% include 'band/instagram.svg.twig' %}</span>
+						Instagram
+					</a>
 				{% endif %}
 				{% if entry.facebook %}
 					<a href="{{ entry.facebook }}" target="_blank">Facebook</a>
 				{% endif %}
 				{% if entry.spotify %}
-					<a href="{{ entry.spotify }}" target="_blank">Spotify</a>
-				{% endif %}
-				{% if entry.youtube %}
-					<a href="{{ entry.youtube }}" target="_blank">Youtube</a>
+					<a href="{{ entry.spotify }}" target="_blank">
+						<span class="icon">{% include 'band/spotify.svg.twig' %}</span>
+						Spotify
+					</a>
 				{% endif %}
 				{% if entry.webseite %}
-					<a href="{{ entry.webseite }}" target="_blank">{{ entry.webseite }}</a>
+					<a href="{{ entry.webseite }}" target="_blank">
+						<span class="icon">{% include 'band/website.svg.twig' %}</span>
+						{{ entry.webseite }}
+					</a>
+				{% endif %}
+				{% if entry.youtube %}
+					<a href="{{ entry.youtube }}" target="_blank">
+						<span class="icon">{% include 'band/youtube.svg.twig' %}</span>
+						Youtube
+					</a>
+					<iframe width="560" height="315" 
+					src="{{ entry.youtube ~ '?autoplay=0' }}"
+					title="YouTube video player" frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 				{% endif %}
 			</div>
 		</div>

@@ -233,17 +233,21 @@
 	transform: scale(1.1);
 }
 
+.band-page-content {
+	margin: 0 20px;
+}
+
 .band-page .band-links {
 	margin-top: 20px;
 }
 
 .band-page .band-links a {
 	margin-top: 5px;
-	display: block;
+	display: flex;
 }
 
 .band-page .band-image {
-	width: 100%;
+	margin: 0 auto;
 	border: 20px solid var(--color-lila);
 }
 .band-page .band-date {
@@ -251,6 +255,13 @@
 	font-size: 24px;
 	margin-bottom: 20px;
 }
+
+.icon svg {
+	display: inline;
+	width: 20px;
+	margin-right: 5px;
+}
+
 
 /* CKE Styles */
 
