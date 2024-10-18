@@ -376,8 +376,9 @@
 
 .card-image img {
 	border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
 	height: 13rem;
+	object-fit: cover;
 }
 
 .card-content {
