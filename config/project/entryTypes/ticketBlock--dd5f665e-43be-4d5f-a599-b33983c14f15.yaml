@@ -58,7 +58,7 @@ handle: ticketBlock
 hasTitleField: false
 icon: ticket
 name: 'Ticket Block'
-showSlugField: true
+showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: ''
 slugTranslationMethod: site

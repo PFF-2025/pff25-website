@@ -74,12 +74,28 @@ fieldLayouts:
             handle: null
             includeInCards: true
             instructions: null
-            label: null
+            label: Portrait
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: a9ab4043-963d-47cc-ab79-68fe373044b3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-18T15:29:06+00:00'
+            elementCondition: null
+            fieldUid: a2a96765-2a74-4004-87aa-5d2a95536f00 # single image
+            handle: funImage
+            includeInCards: false
+            instructions: null
+            label: Spassbild
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fff2adb-6ef0-4ec5-a809-6de0a8f7bba0
             userCondition: null
             warning: null
             width: 100

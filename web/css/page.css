@@ -374,11 +374,23 @@
 	width: 16rem;
 }
 
-.card-image img {
+.card-image img,
+.card-image-fun img{
 	border-top-left-radius: 0.5rem;
 	border-top-right-radius: 0.5rem;
 	height: 13rem;
 	object-fit: cover;
+}
+
+.card-image-fun {
+	display: none;
+}
+
+.card:hover .card-image {
+	display: none;
+}
+.card:hover .card-image-fun {
+	display: block;
 }
 
 .card-content {

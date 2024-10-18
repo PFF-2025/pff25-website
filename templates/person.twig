@@ -1,8 +1,18 @@
 {% set image = person.singleImage.one() %}
+{% set image2 = person.funImage.one() %}
 <div class="card">
   {% if image %}
     <div class="card-image">
-      {{ image.getImg() }}
+      {{ image.getImg({width: 512, height: 416, quality: 75, mode: 'crop'}) }}
+    </div>
+  {% endif %}
+  {% if image2 %}
+    <div class="card-image-fun">
+      {{ image2.getImg({width: 512, height: 416, quality: 75, mode: 'crop'}) }}
+    </div>
+  {% else %}
+    <div class="card-image-fun">
+      {{ image.getImg({width: 512, height: 416, quality: 75, mode: 'crop'}) }}
     </div>
   {% endif %}
 
