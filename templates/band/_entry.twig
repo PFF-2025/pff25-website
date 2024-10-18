@@ -22,7 +22,10 @@
 					</a>
 				{% endif %}
 				{% if entry.facebook %}
-					<a href="{{ entry.facebook }}" target="_blank">Facebook</a>
+					<a href="{{ entry.facebook }}" target="_blank">
+						<span class="icon">{% include 'band/facebook.svg.twig' %}</span>
+						Facebook
+					</a>
 				{% endif %}
 				{% if entry.spotify %}
 					<a href="{{ entry.spotify }}" target="_blank">
@@ -30,17 +33,11 @@
 						Spotify
 					</a>
 				{% endif %}
-				{% if entry.webseite %}
-					<a href="{{ entry.webseite }}" target="_blank">
-						<span class="icon">{% include 'band/website.svg.twig' %}</span>
-						{{ entry.webseite }}
-					</a>
-				{% endif %}
 				{% if entry.youtube %}
-					<a href="{{ entry.youtube }}" target="_blank">
+					{# <a href="{{ entry.youtube }}" target="_blank">
 						<span class="icon">{% include 'band/youtube.svg.twig' %}</span>
 						Youtube
-					</a>
+					</a> #}
 					<iframe width="560" height="315" 
 					src="{{ entry.youtube ~ '?autoplay=0' }}"
 					title="YouTube video player" frameborder="0" 
