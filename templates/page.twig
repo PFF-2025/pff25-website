@@ -11,7 +11,10 @@
 							{% include 'kontur.svg.twig' %}
 						</div>
 					{% endif %}
-					<div class="contentblock__content ck-content">
+					<div
+							class="contentblock__content ck-content"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
 						{{ block.html|raw }}
 					</div>
 				</div>

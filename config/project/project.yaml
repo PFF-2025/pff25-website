@@ -1,4 +1,4 @@
-dateModified: 1729265346
+dateModified: 1729268234
 elementSources:
   craft\elements\Entry:
     -
@@ -102,6 +102,7 @@ meta:
     3410ad85-b767-4ccc-b267-9010fd5b4c52: Name # Name
     4300bdc3-081a-44f1-b898-2d69a30c7175: 'Button Text' # Button Text
     5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa: Stage # Stage
+    68789c44-35d7-4475-8edd-4cf3cbc6a326: 'Padding Bottom' # Padding Bottom
     384449b0-0e26-4422-b8ff-20b1ed283812: 'Meta Description' # Meta Description
     419709be-2d90-4e34-9572-8efb3108bd45: 'Code (HTML)' # Code (HTML)
     32044933-486d-4254-9ef3-1611fac4ff3c: Ticket # Ticket
@@ -122,6 +123,7 @@ meta:
     dfa186b3-dd5d-4278-a4f8-3762e9fbb522: 'People Block' # People Block
     e0ee82a8-2dc7-46c7-97d6-2a9684e37800: 200px # 200px
     e096e3ed-d074-4ad7-b8ad-ef51cf15015c: Pages # Pages
+    e4bf567f-a64c-4827-88b3-d16bc642c5b3: 'Padding Top' # Padding Top
     e710f704-6af7-41db-911d-f8f9879bf6ad: Funktion # Funktion
     ea3fca5d-3eda-40c6-9824-ba35f51ef68d: 400px # 400px
     f02ed8f0-43c2-4b64-a754-d824ee40e9af: Deutsch # Deutsch
