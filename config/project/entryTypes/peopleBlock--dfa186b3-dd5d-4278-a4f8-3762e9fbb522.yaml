@@ -1,6 +1,6 @@
-color: green
+color: null
 fieldLayouts:
-  f4a6ca90-da86-43bc-b7b0-2a1d13530a1e:
+  e7ecc19e-2e5c-459a-85b3-20df92dea8e2:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-04T20:52:53+00:00'
+            dateAdded: '2024-10-18T13:54:37+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,14 +31,14 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: c783c451-de27-4006-a21a-94d8d57aa3ad
+            uid: 7772f72d-8055-4200-8a07-76e78a5e73eb
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-05T14:01:09+00:00'
+            dateAdded: '2024-10-18T13:56:15+00:00'
             elementCondition: null
-            fieldUid: fc7e4ae3-3a1d-458a-b8a7-5ffb97d0f9be # Page Contents
+            fieldUid: a5af1531-b2f9-4092-b0a7-387e89510a36 # peopleList
             handle: null
             includeInCards: false
             instructions: null
@@ -47,19 +47,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9bdfd03b-b50b-4581-916c-b2e50d45f7a2
+            uid: 2d29e0b1-6dfe-41d7-b9d1-79cc1acbaf1c
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: 272cc233-f6e5-4df0-aac4-083552c3e1e4
+        name: Inhalt
+        uid: 2fb050a5-d8b9-42b5-a666-71b8436db50b
         userCondition: null
-handle: page
-hasTitleField: true
-icon: page
-name: Page
-showSlugField: true
-showStatusField: true
+handle: peopleBlock
+hasTitleField: false
+icon: person
+name: 'People Block'
+showSlugField: false
+showStatusField: false
 slugTranslationKeyFormat: ''
 slugTranslationMethod: site
 titleFormat: ''

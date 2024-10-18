@@ -10,7 +10,7 @@ settings:
     - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Code Block (HTML)
     - 438e519b-fd8a-4b06-b94c-e7232e751a58 # Band Block
     - dd5f665e-43be-4d5f-a599-b33983c14f15 # Ticket Block
-    - 409aa701-e80f-482f-a0b5-f4a119c79abc
+    - dfa186b3-dd5d-4278-a4f8-3762e9fbb522 # People Block
   includeTableView: false
   maxEntries: null
   minEntries: null

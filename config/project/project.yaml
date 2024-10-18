@@ -1,4 +1,4 @@
-dateModified: 1729259340
+dateModified: 1729259950
 elementSources:
   craft\elements\Entry:
     -
@@ -119,6 +119,7 @@ meta:
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
     dd5f665e-43be-4d5f-a599-b33983c14f15: 'Ticket Block' # Ticket Block
     df27b7fc-5685-4e0f-8311-29f9dbb5b360: 600px # 600px
+    dfa186b3-dd5d-4278-a4f8-3762e9fbb522: 'People Block' # People Block
     e0ee82a8-2dc7-46c7-97d6-2a9684e37800: 200px # 200px
     e096e3ed-d074-4ad7-b8ad-ef51cf15015c: Pages # Pages
     e710f704-6af7-41db-911d-f8f9879bf6ad: Funktion # Funktion
