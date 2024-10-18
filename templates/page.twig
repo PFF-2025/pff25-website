@@ -37,6 +37,15 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'peopleBlock' %}
+				{% if block.people | length %}
+					<div class="cardblock">
+						{% for person in block.people.all() %}
+							{% include 'person.twig' with person %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>

@@ -1,4 +1,4 @@
-dateModified: 1729105811
+dateModified: 1729259950
 elementSources:
   craft\elements\Entry:
     -
@@ -41,6 +41,21 @@ elementSources:
         - dateUpdated
         - uri
       type: native
+    -
+      heading: ''
+      type: heading
+    -
+      defaultSort:
+        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
+        - asc
+      disabled: false
+      key: 'section:7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d' # People
+      tableAttributes:
+        - status
+        - 'field:e710f704-6af7-41db-911d-f8f9879bf6ad' # Funktion
+        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
+        - 'field:a2a96765-2a74-4004-87aa-5d2a95536f00' # single image
+      type: native
 email:
   fromEmail: info@pff25.ch
   fromName: PFF
@@ -55,6 +70,7 @@ fs:
     url: $PRIMARY_SITE_URL
 meta:
   __names__:
+    1a8b98e4-c690-4d38-bc3b-1cc9ea82e638: People # People
     2d6dc998-a631-473b-aabb-607795249864: 300px # 300px
     2d51e5ff-6165-4ac1-a526-27da48dc6df5: 050px # 050px
     3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
@@ -62,6 +78,7 @@ meta:
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
     5d1e74eb-590f-4d9b-83ac-2d1b04415760: Tickets # Tickets
     6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
+    7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d: People # People
     14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
     27d8fd23-5b20-4e74-93b9-a10a494c6912: Webseite # Webseite
     30a40700-7cdb-4906-9fb5-1fc34b7e154e: Bands # Bands
@@ -82,13 +99,16 @@ meta:
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
     918f2b8b-c6fb-4cd5-b4fc-62e8168b102c: Preis # Preis
     01562c2b-ccc9-49e5-963b-bfb78ae58e77: 800px # 800px
+    3410ad85-b767-4ccc-b267-9010fd5b4c52: Name # Name
     4300bdc3-081a-44f1-b898-2d69a30c7175: 'Button Text' # Button Text
     5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa: Stage # Stage
     384449b0-0e26-4422-b8ff-20b1ed283812: 'Meta Description' # Meta Description
     419709be-2d90-4e34-9572-8efb3108bd45: 'Code (HTML)' # Code (HTML)
     32044933-486d-4254-9ef3-1611fac4ff3c: Ticket # Ticket
     85641352-280c-481a-98ed-9cef22cca8f7: Documents # Documents
+    a2a96765-2a74-4004-87aa-5d2a95536f00: 'single image' # single image
     a3efe0c5-c237-4131-9622-414a98183477: Italienisch # Italienisch
+    a5af1531-b2f9-4092-b0a7-387e89510a36: peopleList # peopleList
     a7a34319-7fc3-4892-9fea-7d13cf4adb1b: Instagram # Instagram
     a668e47c-7099-4611-9500-49855fee3a6b: 648px # 648px
     b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
@@ -99,8 +119,10 @@ meta:
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
     dd5f665e-43be-4d5f-a599-b33983c14f15: 'Ticket Block' # Ticket Block
     df27b7fc-5685-4e0f-8311-29f9dbb5b360: 600px # 600px
+    dfa186b3-dd5d-4278-a4f8-3762e9fbb522: 'People Block' # People Block
     e0ee82a8-2dc7-46c7-97d6-2a9684e37800: 200px # 200px
     e096e3ed-d074-4ad7-b8ad-ef51cf15015c: Pages # Pages
+    e710f704-6af7-41db-911d-f8f9879bf6ad: Funktion # Funktion
     ea3fca5d-3eda-40c6-9824-ba35f51ef68d: 400px # 400px
     f02ed8f0-43c2-4b64-a754-d824ee40e9af: Deutsch # Deutsch
     f1dbea0f-ce16-41ee-ac85-050e80544361: Settings # Settings

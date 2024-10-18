@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: people
+instructions: null
+name: peopleList
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: true
+  showSiteMenu: false
+  sources:
+    - 'section:7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d' # People
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

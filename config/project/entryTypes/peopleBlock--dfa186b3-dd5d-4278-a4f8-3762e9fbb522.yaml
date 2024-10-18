@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  e7ecc19e-2e5c-459a-85b3-20df92dea8e2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-10-18T13:54:37+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7772f72d-8055-4200-8a07-76e78a5e73eb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-18T13:56:15+00:00'
+            elementCondition: null
+            fieldUid: a5af1531-b2f9-4092-b0a7-387e89510a36 # peopleList
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d29e0b1-6dfe-41d7-b9d1-79cc1acbaf1c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 2fb050a5-d8b9-42b5-a666-71b8436db50b
+        userCondition: null
+handle: peopleBlock
+hasTitleField: false
+icon: person
+name: 'People Block'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

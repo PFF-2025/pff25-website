@@ -357,3 +357,30 @@
 	opacity: 0.7;
 }
 
+/* people cards */
+
+.cardblock {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding-bottom: 2rem;
+}
+
+.card {
+	color: white;
+	background-color: var(--color-lila);
+	border-radius: 0.5rem;
+	width: 16rem;
+}
+
+.card-image img {
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	height: 13rem;
+	object-fit: cover;
+}
+
+.card-content {
+	padding: 1rem;
+}
