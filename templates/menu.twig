@@ -4,7 +4,7 @@
 			<img src="/img/logo_weiss.svg" alt="Horizont Logo" />
 		</a>
 	</div>
-	{{ craft.olivemenus.getMenuHTML('main') }}
+	{{ include('menu-items.twig') }}
 </div>
 <div class="pagemenu pagemenu--mobile" id="mobile-menu">
 	<div class="logo">
@@ -19,7 +19,7 @@
 		<i class="icon-close"></i>
 	</a>
 	<div class="menu-popup">
-		{{ craft.olivemenus.getMenuHTML('main') }}
+		{{ include('menu-items.twig') }}
 		<div class="menu-popup__bottom">
 			<div class="menu-popup__kontur">
 				{% include 'kontur.svg.twig' %}

@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: showInMenu
+instructions: 'Seite im Hauptmenü anzeigen'
+name: 'Show in menu'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: language
+type: craft\fields\Lightswitch

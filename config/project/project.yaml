@@ -1,4 +1,4 @@
-dateModified: 1729271531
+dateModified: 1729426518
 elementSources:
   craft\elements\Entry:
     -
@@ -38,6 +38,7 @@ elementSources:
       key: 'section:e096e3ed-d074-4ad7-b8ad-ef51cf15015c' # Pages
       tableAttributes:
         - status
+        - 'field:cdb42f6d-113d-44cd-b2be-64fc96b16ad0' # Show in menu
         - dateUpdated
         - uri
       type: native
@@ -115,6 +116,7 @@ meta:
     b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page
     c936c810-463c-43e1-9b5e-47993eca4121: Link # Link
+    cdb42f6d-113d-44cd-b2be-64fc96b16ad0: 'Show in menu' # Show in menu
     cecd9584-5020-49c3-82ae-0a510a7bfe69: 'Content Block' # Content Block
     d293cad1-c4f0-47b4-98c9-bf6c3caaa5ba: Facebook # Facebook
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
@@ -161,10 +163,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 0.0.0
-  olivemenus:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.1.11
 system:
   edition: solo
   live: true
