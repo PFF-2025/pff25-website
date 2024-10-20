@@ -1,5 +1,5 @@
 baseUrl: '@primaryUrlIt'
-enabled: '1'
+enabled: '0'
 handle: it
 hasUrls: true
 language: it
