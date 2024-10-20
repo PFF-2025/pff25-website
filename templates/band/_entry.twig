@@ -4,13 +4,18 @@
 <div class="pagecontent band-page">
 	<div class="contentblock">
 		<div class="contentblock__content">
+			<a onclick="history.back()" href="#" class="back-link">
+				<i class="icon-arrow-left"></i>
+				{{ 'Zurück' | t }}
+			</a>
+
 			{% if entry.image.one() %}
 				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" class="band-image">
 			{% endif %}
 
 			<h1>{{ entry.title }}</h1>
 			<div class="band-date">
-				{{ entry.day | translateDay}}, {{ entry.stage | translateStage}}
+				{{ entry.day | t}}, {{ entry.stage | t}}
 			</div>
 			<p>{{ entry.html | raw }}</p>
 
@@ -33,6 +38,12 @@
 						Spotify
 					</a>
 				{% endif %}
+				{% if entry.webseite %}
+					<a href="{{ entry.webseite }}" target="_blank">
+						<span class="icon">{% include 'band/website.svg.twig' %}</span>
+						{{ entry.webseite | replace({'https://': '', 'http://': ''}) }}
+					</a>
+				{% endif %}
 				{% if entry.youtube %}
 					{# <a href="{{ entry.youtube }}" target="_blank">
 						<span class="icon">{% include 'band/youtube.svg.twig' %}</span>
@@ -40,8 +51,8 @@
 					</a> #}
 					<iframe
 						src="{{ entry.youtube ~ '?autoplay=0' }}"
-						title="YouTube video player" frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 					</iframe>
 				{% endif %}

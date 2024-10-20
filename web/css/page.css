@@ -240,6 +240,10 @@
 .band-page .band-links {
 	margin-top: 20px;
 }
+.band-page .back-link {
+	margin-bottom: 20px;
+	display: block;
+}
 
 .band-page .band-links a {
 	margin-top: 5px;
