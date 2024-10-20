@@ -1,4 +1,4 @@
-dateModified: 1729434067
+dateModified: 1729448444
 elementSources:
   craft\elements\Entry:
     -
@@ -14,7 +14,22 @@ elementSources:
         - link
       type: native
     -
-      heading: Structures
+      heading: Seiten
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:e096e3ed-d074-4ad7-b8ad-ef51cf15015c' # Pages
+      tableAttributes:
+        - status
+        - 'field:cdb42f6d-113d-44cd-b2be-64fc96b16ad0' # Show in menu
+        - dateUpdated
+        - uri
+      type: native
+    -
+      heading: Daten
       type: heading
     -
       defaultSort:
@@ -32,21 +47,6 @@ elementSources:
       type: native
     -
       defaultSort:
-        - structure
-        - asc
-      disabled: false
-      key: 'section:e096e3ed-d074-4ad7-b8ad-ef51cf15015c' # Pages
-      tableAttributes:
-        - status
-        - 'field:cdb42f6d-113d-44cd-b2be-64fc96b16ad0' # Show in menu
-        - dateUpdated
-        - uri
-      type: native
-    -
-      heading: ''
-      type: heading
-    -
-      defaultSort:
         - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
         - asc
       disabled: false
@@ -56,6 +56,19 @@ elementSources:
         - 'field:e710f704-6af7-41db-911d-f8f9879bf6ad' # Funktion
         - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
         - 'field:a2a96765-2a74-4004-87aa-5d2a95536f00' # single image
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:c82a2b8a-9278-4d81-9453-37ede8c7524a' # Programm
+      tableAttributes:
+        - status
+        - 'field:4a805b89-1a04-4979-8d05-ec829eaf289a' # Bild
+        - dateUpdated
+        - 'field:88ba550e-be57-48c6-a6ba-403d894e02dd' # Ort
+        - uri
       type: native
 email:
   fromEmail: info@pff25.ch
@@ -75,12 +88,14 @@ meta:
     2d6dc998-a631-473b-aabb-607795249864: 300px # 300px
     2d51e5ff-6165-4ac1-a526-27da48dc6df5: 050px # 050px
     3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
+    3b2d278d-b497-4a7e-a2c5-ee5ff555eef1: 'Programm Block' # Programm Block
     4a805b89-1a04-4979-8d05-ec829eaf289a: Bild # Bild
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
     5d1e74eb-590f-4d9b-83ac-2d1b04415760: Tickets # Tickets
     6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
     7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d: People # People
     7fa9d105-86bf-428e-a80b-4ed51af313dd: 'Kontur Design' # Kontur Design
+    8b8fbb58-1975-47ef-9177-6a934c13faa7: 'Programm Liste' # Programm Liste
     14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
     27d8fd23-5b20-4e74-93b9-a10a494c6912: Webseite # Webseite
     30a40700-7cdb-4906-9fb5-1fc34b7e154e: Bands # Bands
@@ -90,6 +105,7 @@ meta:
     066c0ee4-76c8-42c4-a89a-83cc27c1469d: 'Footer Columns' # Footer Columns
     69fc8c65-9336-44e4-a9c5-a62ae50b2b64: Day # Day
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
+    88ba550e-be57-48c6-a6ba-403d894e02dd: Ort # Ort
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
     268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
     283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
@@ -113,9 +129,11 @@ meta:
     a3efe0c5-c237-4131-9622-414a98183477: Italienisch # Italienisch
     a5af1531-b2f9-4092-b0a7-387e89510a36: peopleList # peopleList
     a7a34319-7fc3-4892-9fea-7d13cf4adb1b: Instagram # Instagram
+    a9f07671-6678-4af8-81df-68b2715f84dd: Programm # Programm
     a668e47c-7099-4611-9500-49855fee3a6b: 648px # 648px
     b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page
+    c82a2b8a-9278-4d81-9453-37ede8c7524a: Programm # Programm
     c936c810-463c-43e1-9b5e-47993eca4121: Link # Link
     cdb42f6d-113d-44cd-b2be-64fc96b16ad0: 'Show in menu' # Show in menu
     cecd9584-5020-49c3-82ae-0a510a7bfe69: 'Content Block' # Content Block

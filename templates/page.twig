@@ -35,6 +35,15 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'programmBlock' %}
+				{% if block.programmlist | length %}
+					<div class="block programmblock">
+						{% for programm in block.programmlist.all() %}
+							{% include 'programm/programm-block.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
 			{% if block.type == 'ticketBlock' %}
 				{% if block.ticketlist | length %}
 					<div class="block ticketblock">

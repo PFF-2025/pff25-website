@@ -1,0 +1,25 @@
+{% include "_header.twig" %}
+{% include "menu.twig" %}
+
+<div class="pagecontent programm-page">
+	<div class="contentblock">
+		<div class="contentblock__content">
+			<a onclick="history.back()" href="#" class="back-link">
+				<i class="icon-arrow-left"></i>
+				{{ 'Zurück' | t }}
+			</a>
+
+			{% if entry.image.one() %}
+				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" class="programm-image">
+			{% endif %}
+
+			<h1>{{ entry.title }}</h1>
+			<div class="programm-date">
+				{{ entry.place }}
+			</div>
+			<p>{{ entry.html | raw }}</p>
+		</div>
+	</div>
+</div>
+
+{% include "_footer.twig" %}

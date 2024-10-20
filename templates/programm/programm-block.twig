@@ -1,0 +1,9 @@
+<a href="{{ programm.url }}" class="programm">
+	{% if programm.image.one() %}
+		<div class="programm-image" style="background-image: url('{{ programm.image.one().url }}')"></div>
+	{% endif %}
+	<div class="programm-info">
+		<h2>{{ programm.title }}</h2>
+		<p>{{ programm.place }}</p>
+	</div>
+</a>

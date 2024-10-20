@@ -182,6 +182,7 @@
 	font-size: 20px;
 }
 
+.programmblock,
 .bandblock {
 	display: flex;
 	flex-wrap: wrap;
@@ -190,6 +191,7 @@
 	flex-direction: column;
 }
 @media (min-width: 768px) {
+	.programmblock,
 	.bandblock {
 		flex-direction: row;
 		justify-content: center;
@@ -197,6 +199,7 @@
 	}
 }
 
+.programmblock .programm,
 .bandblock .band {
 	width: 100%;
 	box-sizing: border-box;
@@ -207,21 +210,28 @@
 	border: 20px solid var(--color-lila);
 	overflow: hidden;
 }
+.programmblock .programm {
+	border: 20px solid var(--color-green);
+}
 @media (min-width: 768px) {
+	.programmblock .programm,
 	.bandblock .band {
 		margin: 10px;
 		width: 24rem;
 	}
 }
 
+.programmblock .programm-info,
 .bandblock .band-info {
 	padding: 10px;
 }
 
+.programmblock .programm:hover,
 .bandblock .band:hover {
 	color: var(--color-blue);
 }
 
+.programmblock .programm-image,
 .bandblock .band-image {
 	height: 220px;
 	background-position: center center;
@@ -229,20 +239,24 @@
 	transition: transform 0.4s ease;
 }
 
+.programm:hover .programm-image,
 .band:hover .band-image {
 	transform: scale(1.1);
 }
 
+.programm-page-content,
 .band-page-content {
 	margin: 0 20px;
 }
 
-.band-page .band-links {
-	margin-top: 20px;
-}
+.programm-page .back-link,
 .band-page .back-link {
 	margin-bottom: 20px;
 	display: block;
+}
+
+.band-page .band-links {
+	margin-top: 20px;
 }
 
 .band-page .band-links a {
@@ -250,10 +264,12 @@
 	display: flex;
 }
 
+.programm-page .programm-image,
 .band-page .band-image {
 	margin: 0 auto;
 	border: 20px solid var(--color-lila);
 }
+.programm-page .programm-date,
 .band-page .band-date {
 	color: var(--color-lila);
 	font-size: 24px;
