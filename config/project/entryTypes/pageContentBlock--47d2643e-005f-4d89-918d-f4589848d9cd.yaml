@@ -90,6 +90,32 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-10-20T14:15:18+00:00'
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 673f9bd1-3a54-42af-a6b2-e92198b5be01 # Kontur oben anzeigen
+                  layoutElementUid: 710f0bd1-7dc1-45e6-9463-8452166e8913
+                  uid: 288a46c9-7ad9-4add-b102-a170634a854c
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 7fa9d105-86bf-428e-a80b-4ed51af313dd # Kontur Design
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3af4b997-b580-47a5-a46b-ab99a4f83b6c
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-10-18T16:16:54+00:00'
             elementCondition: null
             fieldUid: e4bf567f-a64c-4827-88b3-d16bc642c5b3 # Padding Top

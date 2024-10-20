@@ -8,7 +8,11 @@
 				<div class="block contentblock contentblock--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
 					{% if block.kontur %}
 						<div class="contentblock__kontur">
-							{% include 'kontur.svg.twig' %}
+							{% if block.konturDesign == 'kontur2' %}
+								{% include 'kontur2.svg.twig' %}
+							{% else %}
+								{% include 'kontur1.svg.twig' %}
+							{% endif %}
 						</div>
 					{% endif %}
 					<div

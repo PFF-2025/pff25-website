@@ -1,4 +1,4 @@
-dateModified: 1729426518
+dateModified: 1729433766
 elementSources:
   craft\elements\Entry:
     -
@@ -80,6 +80,7 @@ meta:
     5d1e74eb-590f-4d9b-83ac-2d1b04415760: Tickets # Tickets
     6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
     7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d: People # People
+    7fa9d105-86bf-428e-a80b-4ed51af313dd: 'Kontur Design' # Kontur Design
     14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
     27d8fd23-5b20-4e74-93b9-a10a494c6912: Webseite # Webseite
     30a40700-7cdb-4906-9fb5-1fc34b7e154e: Bands # Bands
