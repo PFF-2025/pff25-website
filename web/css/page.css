@@ -329,11 +329,10 @@
 }
 
 .hero-desktop {
-	background: url('/images/desktop_bg.png') no-repeat center center;
+	background: url('/images/desktop_bg.png') no-repeat 50% 39%;
 	height: calc(100dvh - 40px);
 	width: 100%;
 	background-size: cover;
-	background-position: 50% 39%;
 	display: none;
 }
 @media (min-width: 640px) {
@@ -342,7 +341,7 @@
 	}
 }
 .hero-mobile {
-	background: url('/images/mobile_bg.png') no-repeat center center;
+	background: url('/images/mobile_bg.png') no-repeat 50% 43%;
 	height: calc(100svh - 40px);
 	width: 100%;
 	background-size: cover;
