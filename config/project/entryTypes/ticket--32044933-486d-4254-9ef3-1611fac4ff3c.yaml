@@ -1,0 +1,115 @@
+color: cyan
+fieldLayouts:
+  28f27e89-ff51-42de-a837-e103932d0994:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-10-16T18:18:06+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 905f07dc-e89f-42ed-b471-4dec602ba65b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-16T18:22:24+00:00'
+            elementCondition: null
+            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # HTML
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Beschreibung
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 022188bb-0090-43cd-8581-42308b86bc74
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-16T18:22:24+00:00'
+            elementCondition: null
+            fieldUid: 918f2b8b-c6fb-4cd5-b4fc-62e8168b102c # Preis
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d965d0c2-3f50-464f-acc9-50c3ba29d594
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-16T18:22:24+00:00'
+            elementCondition: null
+            fieldUid: c936c810-463c-43e1-9b5e-47993eca4121 # Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ef3cc03-d26d-41e8-aa7e-c97137aaa527
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-16T18:40:40+00:00'
+            elementCondition: null
+            fieldUid: 4300bdc3-081a-44f1-b898-2d69a30c7175 # Button Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26ed9bb2-d75f-4342-8734-53d0e5ca8452
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 0144fcd4-654c-4f8d-8372-3331a22981e6
+        userCondition: null
+handle: ticket
+hasTitleField: true
+icon: ticket
+name: Ticket
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

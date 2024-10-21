@@ -51,6 +51,12 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+        name: Inhalt
+        uid: a7b74978-b86f-4e4f-b1f3-343cfc51143e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
           -
             dateAdded: '2024-09-05T14:02:15+00:00'
             elementCondition: null
@@ -83,13 +89,71 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
-        uid: a7b74978-b86f-4e4f-b1f3-343cfc51143e
+          -
+            dateAdded: '2024-10-20T14:15:18+00:00'
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 673f9bd1-3a54-42af-a6b2-e92198b5be01 # Kontur oben anzeigen
+                  layoutElementUid: 710f0bd1-7dc1-45e6-9463-8452166e8913
+                  uid: 288a46c9-7ad9-4add-b102-a170634a854c
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 7fa9d105-86bf-428e-a80b-4ed51af313dd # Kontur Design
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3af4b997-b580-47a5-a46b-ab99a4f83b6c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-18T16:16:54+00:00'
+            elementCondition: null
+            fieldUid: e4bf567f-a64c-4827-88b3-d16bc642c5b3 # Padding Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c69bc6e-8ed0-47fc-a6c6-ad51a53c7a30
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-10-18T16:16:54+00:00'
+            elementCondition: null
+            fieldUid: 68789c44-35d7-4475-8edd-4cf3cbc6a326 # Padding Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 262b3d0f-a34b-49b6-8e08-83164b367d05
+            userCondition: null
+            warning: null
+            width: 25
+        name: Design
+        uid: c01ad5ed-c5ed-441e-9874-3ef1e2cb14d1
         userCondition: null
-handle: pageBlock
+handle: pageContentBlock
 hasTitleField: false
-icon: shapes
-name: PageBlock
+icon: paragraph
+name: 'Content Block'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: ''

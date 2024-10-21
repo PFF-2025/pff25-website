@@ -21,7 +21,14 @@
  */
 
 use craft\helpers\App;
+use modules\pff\PffModule;
 
 return [
 	'id' => App::env('CRAFT_APP_ID') ?: 'CraftCMS',
+	'modules' => [
+		'pff' => [
+			'class' => PffModule::class
+		],
+	],
+	'bootstrap' => ['pff'],
 ];

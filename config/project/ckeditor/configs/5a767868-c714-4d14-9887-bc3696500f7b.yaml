@@ -4,6 +4,12 @@ headingLevels:
   - 3
 name: Fancy
 options:
+  fontSize:
+    options:
+      - tiny
+      - small
+      - big
+      - huge
   image:
     toolbar:
       - 'imageStyle:alignLeft'
@@ -14,6 +20,11 @@ options:
   link:
     addTargetToExternalLinks: true
     decorators:
+      isButton:
+        attributes:
+          class: link-button
+        label: Button
+        mode: manual
       isWitharrow:
         attributes:
           class: link-with-arrow
@@ -23,6 +34,7 @@ options:
     targetOptions: true
 toolbar:
   - heading
+  - fontSize
   - '|'
   - bold
   - italic
@@ -42,6 +54,7 @@ toolbar:
   - horizontalLine
   - '|'
   - insertTable
+  - anchor
   - '|'
   - undo
   - redo

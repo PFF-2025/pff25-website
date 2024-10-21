@@ -1,0 +1,34 @@
+<div class="pagemenu pagemenu--desktop" id="desktop-menu">
+	<div class="logo">
+		<a href="/{{ craft.app.language }}/home">
+			<img src="/img/logo_weiss.svg" alt="Horizont Logo" />
+		</a>
+	</div>
+	{{ include('menu-items.twig') }}
+</div>
+<div class="pagemenu pagemenu--mobile" id="mobile-menu">
+	<div class="logo">
+		<a href="/">
+			<img src="/img/logo_weiss.svg" alt="Horizont Logo" />
+		</a>
+	</div>
+	<a class="menu-opener" onclick="toggleMobileMenu()">
+		<i class="icon-menu"></i>
+	</a>
+	<a class="menu-closer" onclick="toggleMobileMenu()">
+		<i class="icon-close"></i>
+	</a>
+	<div class="menu-popup">
+		{{ include('menu-items.twig') }}
+		<div class="menu-popup__bottom">
+			<div class="menu-popup__kontur">
+				{% include 'kontur1.svg.twig' %}
+			</div>
+			<div class="menu-popup__bottom-content">
+				<div class="menu-popup__language-switch">
+					{% hook 'languageManagerNavigation' %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

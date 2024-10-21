@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: ticketlist
+instructions: null
+name: Tickets
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 32044933-486d-4254-9ef3-1611fac4ff3c # Ticket
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

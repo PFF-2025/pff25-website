@@ -1,4 +1,4 @@
-color: null
+color: green
 fieldLayouts:
   f4a6ca90-da86-43bc-b7b0-2a1d13530a1e:
     tabs:
@@ -32,6 +32,22 @@ fieldLayouts:
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: c783c451-de27-4006-a21a-94d8d57aa3ad
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-20T11:50:34+00:00'
+            elementCondition: null
+            fieldUid: cdb42f6d-113d-44cd-b2be-64fc96b16ad0 # Show in menu
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Im Menü anzeigen'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc9d7c25-059c-4a20-9a7e-5825cdfe02b4
             userCondition: null
             warning: null
             width: 100

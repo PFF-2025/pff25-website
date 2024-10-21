@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: stage
+instructions: null
+name: Stage
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Hauptbühne
+        -
+          - value
+          - main
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Zeltbühne
+        -
+          - value
+          - second
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - ''
+        -
+          - value
+          - '-'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

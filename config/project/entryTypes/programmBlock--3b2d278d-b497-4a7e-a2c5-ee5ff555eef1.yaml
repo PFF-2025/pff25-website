@@ -1,0 +1,121 @@
+color: null
+fieldLayouts:
+  4dac0429-1a1a-4c1f-b3c2-4990b5f702ee:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-10-20T18:04:55+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ec507a60-d34b-40e9-85a4-519ca5f5e51d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-20T18:11:15+00:00'
+            elementCondition: null
+            fieldUid: 8b8fbb58-1975-47ef-9177-6a934c13faa7 # Programm Liste
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54122a98-1145-4431-af75-001228478ae3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: be6fa7ef-2eeb-4833-a6ce-b8a014fe4f40
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: 90aa4796-f6b1-42a3-a940-f679702b5518 # Block Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31d1d3be-a067-44dd-a1a1-e64e8392fbba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: e4bf567f-a64c-4827-88b3-d16bc642c5b3 # Padding Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e100810-c4d9-437a-b82f-fa414354bf6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: 68789c44-35d7-4475-8edd-4cf3cbc6a326 # Padding Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 960d99f5-bc38-459f-bad9-77fd33625872
+            userCondition: null
+            warning: null
+            width: 100
+        name: Design
+        uid: 6a40cd21-fa47-4fed-b53b-47da66bf20ce
+        userCondition: null
+handle: programmBlock
+hasTitleField: false
+icon: icons
+name: 'Programm Block'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: ''
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: ''
+titleTranslationMethod: site

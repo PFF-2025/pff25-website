@@ -1,0 +1,121 @@
+/* Global CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+	--color-green: #027755;
+	--color-blue: #001259;
+	--color-lila: #C092FF;
+	--color-petrol: #30969e;
+	--color-beige: #dbd0af;
+	--color-linde: #d3fd7e;
+	--color-rost: #cd4117;
+	--color-white: #ffffff;
+}
+
+/* Reset CSS */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+}
+input, button, textarea, select {
+	font: inherit;
+}
+
+/* General Styles */
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	color: var(--color-green);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+a {
+	color: var(--color-blue);
+	text-decoration: none;
+}
+a:hover {
+	color: var(--color-lila);
+}
+
+a.link-with-arrow::before {
+	content: "\e903";
+	margin-right: 0.4em;
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 85%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.link-button {
+	background: var(--color-blue);
+	color: white !important;
+	padding: 0.8em 1.5em;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin-right: 10px;
+}
+.link-button:hover {
+	background: var(--color-lila);
+	color: white !important;
+	opacity: 1 !important;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	color: inherit;
+	position: relative;
+	top: 1px;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.3rem;
+	font-weight: 600;
+}
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 0.3rem;
+	font-weight: 600;
+}
+
+h1 a,
+h1 a:hover,
+h2 a,
+h2 a:hover,
+h3 a,
+h3 a:hover {
+	color: inherit;
+}

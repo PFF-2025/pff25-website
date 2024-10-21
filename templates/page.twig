@@ -1,22 +1,72 @@
 {% include "_header.twig" %}
+{% include "menu.twig" %}
 
-<div class="papecontent">
+<div class="pagecontent">
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
-			{% if block.type == 'pageBlock' and block.html %}
-				<div class="pageblock pageblock--{{block.blockStyle}}">
+			{% if block.type == 'pageContentBlock' and block.html %}
+				<div class="block contentblock block--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
 					{% if block.kontur %}
-						<div class="pageblock__kontur">
-							{% include 'kontur.svg.twig' %}
+						<div class="contentblock__kontur">
+							{% if block.konturDesign == 'kontur2' %}
+								{% include 'kontur2.svg.twig' %}
+							{% else %}
+								{% include 'kontur1.svg.twig' %}
+							{% endif %}
 						</div>
 					{% endif %}
-					<div class="pageblock__content ck-content">
+					<div
+							class="contentblock__content ck-content"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
 						{{ block.html|raw }}
 					</div>
 				</div>
 			{% endif %}
-			{% if block.type == 'htmlBlock' and block.code %}
+			{% if block.type == 'pageCodeBlock' and block.code %}
 				{{ block.code|raw }}
+			{% endif %}
+			{% if block.type == 'bandBlock' %}
+				{% if block.bandlist | length %}
+					<div
+							class="block bandblock block--{{block.blockStyle}}"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
+						{% for band in block.bandlist.all() %}
+							{% include 'band/band-block.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
+			{% if block.type == 'programmBlock' %}
+				{% if block.programmlist | length %}
+					<div
+							class="block programmblock block--{{block.blockStyle}}"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
+						{% for programm in block.programmlist.all() %}
+							{% include 'programm/programm-block.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
+			{% if block.type == 'ticketBlock' %}
+				{% if block.ticketlist | length %}
+					<div class="block ticketblock">
+						{% for ticket in block.ticketlist.all() %}
+							{% include 'ticket/ticket-block.twig' %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endif %}
+			{% if block.type == 'peopleBlock' %}
+				{% if block.people | length %}
+					<div class="cardblock">
+						{% for person in block.people.all() %}
+							{% include 'person.twig' with person %}
+						{% endfor %}
+					</div>
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 	{% endif %}

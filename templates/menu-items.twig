@@ -1,0 +1,9 @@
+<div class="menu">
+	<ul>
+		{% for entry in craft.entries.section('pages').showInMenu(true).all() %}
+			<li class="menu-item">
+				<a href="{{ entry.url }}">{{ entry.title | t }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

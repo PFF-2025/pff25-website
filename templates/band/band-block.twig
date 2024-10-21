@@ -1,0 +1,9 @@
+<a href="{{ band.url }}" class="band">
+	{% if band.image.one() %}
+		<div class="band-image" style="background-image: url('{{ band.image.one().url }}')"></div>
+	{% endif %}
+	<div class="band-info">
+		<h2>{{ band.title }}</h2>
+		<p>{{ band.day | t}}, {{ band.stage | t}}</p>
+	</div>
+</a>

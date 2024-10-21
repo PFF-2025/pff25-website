@@ -1,0 +1,64 @@
+{% include "_header.twig" %}
+{% include "menu.twig" %}
+
+<div class="pagecontent band-page">
+	<div class="contentblock">
+		<div class="contentblock__content">
+			<a onclick="history.back()" href="#" class="back-link">
+				<i class="icon-arrow-left"></i>
+				{{ 'Zurück' | t }}
+			</a>
+
+			{% if entry.image.one() %}
+				<img src="{{ entry.image.one().url }}" alt="{{ entry.title }}" class="band-image">
+			{% endif %}
+
+			<h1>{{ entry.title }}</h1>
+			<div class="band-date">
+				{{ entry.day | t}}, {{ entry.stage | t}}
+			</div>
+			<p>{{ entry.html | raw }}</p>
+
+			<div class="band-links">
+				{% if entry.instagram %}
+					<a href="{{ entry.instagram }}" target="_blank">
+						<span class="icon">{% include 'band/instagram.svg.twig' %}</span>
+						Instagram
+					</a>
+				{% endif %}
+				{% if entry.facebook %}
+					<a href="{{ entry.facebook }}" target="_blank">
+						<span class="icon">{% include 'band/facebook.svg.twig' %}</span>
+						Facebook
+					</a>
+				{% endif %}
+				{% if entry.spotify %}
+					<a href="{{ entry.spotify }}" target="_blank">
+						<span class="icon">{% include 'band/spotify.svg.twig' %}</span>
+						Spotify
+					</a>
+				{% endif %}
+				{% if entry.webseite %}
+					<a href="{{ entry.webseite }}" target="_blank">
+						<span class="icon">{% include 'band/website.svg.twig' %}</span>
+						{{ entry.webseite | replace({'https://': '', 'http://': ''}) }}
+					</a>
+				{% endif %}
+				{% if entry.youtube %}
+					{# <a href="{{ entry.youtube }}" target="_blank">
+						<span class="icon">{% include 'band/youtube.svg.twig' %}</span>
+						Youtube
+					</a> #}
+					<iframe
+						src="{{ entry.youtube ~ '?autoplay=0' }}"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+					</iframe>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include "_footer.twig" %}

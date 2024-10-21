@@ -10,6 +10,8 @@ settings:
   createButtonLabel: null
   defaultTransform: null
   enableSourceEditingForNonAdmins: false
+  entryTypes:
+    - d898aa9b-2eb8-45c2-803d-f1edfcc78cf1 # Band
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false

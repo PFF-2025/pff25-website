@@ -17,7 +17,7 @@ fieldLayouts:
             includeInCards: false
             inputType: null
             instructions: null
-            label: null
+            label: Name
             max: null
             min: null
             name: null
@@ -36,9 +36,9 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-04T20:56:59+00:00'
+            dateAdded: '2024-10-13T11:01:38+00:00'
             elementCondition: null
-            fieldUid: 9ae5a443-256e-4cc3-afe5-0de572402e32
+            fieldUid: 4a805b89-1a04-4979-8d05-ec829eaf289a # Bild
             handle: null
             includeInCards: false
             instructions: null
@@ -47,12 +47,178 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3182e055-bbc9-4a90-a994-f604fb024fcc
+            uid: 5d14b30f-9bb9-450a-8a56-e4ed6288f829
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2024-10-13T10:53:56+00:00'
+            elementCondition: null
+            fieldUid: 6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc # Kurz-Beschreibung
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58be69f1-c33c-4128-898f-9ba3adecdbb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T10:53:56+00:00'
+            elementCondition: null
+            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # HTML
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Beschreibung
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 250ea9f2-ca91-4927-9275-86b046c823a3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T10:53:56+00:00'
+            elementCondition: null
+            fieldUid: 69fc8c65-9336-44e4-a9c5-a62ae50b2b64 # Day
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Tag
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcfb16e9-22cc-4a1f-9095-a6572d591271
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-10-13T10:53:56+00:00'
+            elementCondition: null
+            fieldUid: 66a41ec7-003b-4f6a-840b-6565cfffe2db # Time
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Uhrzeit
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa853127-037b-4349-aa21-47c819aa09db
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-10-13T10:53:56+00:00'
+            elementCondition: null
+            fieldUid: 5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa # Stage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Bühne
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a900b60e-6ad5-494c-b738-d22d90777292
+            userCondition: null
+            warning: null
+            width: 50
         name: Content
         uid: c1db6fc0-97c8-4b11-aadd-07ed50e01a49
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: a7a34319-7fc3-4892-9fea-7d13cf4adb1b # Instagram
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8917658a-7bf5-414d-a659-d54a1dc7132e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: f3863ce9-d846-4699-b6b8-7ae0c4b06faf # Spotify
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 694b2c58-76a3-4e26-901d-5c665624629a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: 401ee9d8-e854-4a9d-b858-34924ce8a45d # YouTube
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8869d918-490d-407e-bbcd-af0c5d5b1bb3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: d293cad1-c4f0-47b4-98c9-bf6c3caaa5ba # Facebook
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cb6345e4-c60d-43eb-a6ce-f8c4c8205999
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-13T16:30:54+00:00'
+            elementCondition: null
+            fieldUid: 27d8fd23-5b20-4e74-93b9-a10a494c6912 # Webseite
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 156ae36c-d095-4fb0-b3bd-335466331b64
+            userCondition: null
+            warning: null
+            width: 100
+        name: Links
+        uid: b0b395cb-843f-4eba-9a6a-8e441d3b0d7e
         userCondition: null
 handle: band
 hasTitleField: true
@@ -60,8 +226,8 @@ icon: music
 name: Band
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: null
+slugTranslationKeyFormat: ''
 slugTranslationMethod: site
 titleFormat: ''
-titleTranslationKeyFormat: null
+titleTranslationKeyFormat: ''
 titleTranslationMethod: site

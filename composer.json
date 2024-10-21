@@ -21,10 +21,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.2.0",
-    "craftcms/cms": "5.4.3",
+    "craftcms/ckeditor": "4.3.0",
+    "craftcms/cms": "5.4.8",
     "doublesecretagency/craft-cpcss": "3.0.0",
+    "mmikkel/cp-field-inspect": "2.0.2",
     "nystudio107/craft-code-field": "5.0.0",
+    "olivestudio/craft-olivemenus": "5.0.0",
     "spacemonk/craft-language-manager": "1.1.0",
     "verbb/doxter": "6.0.0",
     "vlucas/phpdotenv": "^5.4.0"
@@ -42,6 +44,11 @@
     "optimize-autoloader": true,
     "platform": {
       "php": "8.2"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\pff\\": "modules/pff/"
     }
   },
   "scripts": {

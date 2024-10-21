@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: konturDesign
+instructions: null
+name: 'Kontur Design'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Kontur 1'
+        -
+          - value
+          - kontur1
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'Kontur 2'
+        -
+          - value
+          - kontur2
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
