@@ -5,7 +5,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy Website
         uses: appleboy/ssh-action@v1.0.3
