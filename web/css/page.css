@@ -12,50 +12,50 @@
 	padding-top: 80px;
 }
 
-.contentblock.contentblock--blue {
+.block.block--blue {
 	background: var(--color-blue);
 	color: white;
 }
-.contentblock.contentblock--blue a {
+.block.block--blue a {
 	color: var(--color-lila);
 }
-.contentblock.contentblock--blue a:hover {
+.block.block--blue a:hover {
 	opacity: 0.8;
 }
-.contentblock.contentblock--blue a.link-button {
+.block.block--blue a.link-button {
 	color: var(--color-white);
 	background: var(--color-green);
 }
-.contentblock.contentblock--blue a.link-button:hover {
+.block.block--blue a.link-button:hover {
 	opacity: 1;
 	background: var(--color-lila);
 }
 
-.contentblock.contentblock--green {
+.block.block--green {
 	background: var(--color-green);
 	color: white;
 }
-.contentblock.contentblock--green a {
+.block.block--green a {
 	color: var(--color-beige);
 }
-.contentblock.contentblock--green a:hover {
+.block.block--green a:hover {
 	opacity: 0.8;
 }
 
-.contentblock.contentblock--lila {
+.block.block--lila {
 	background: var(--color-lila);
 	color: white;
 }
-.contentblock.contentblock--lila a {
+.block.block--lila a {
 	color: var(--color-blue);
 }
-.contentblock.contentblock--lila a:hover {
+.block.block--lila a:hover {
 	opacity: 0.6;
 }
-.contentblock.contentblock--lila a.link-button {
+.block.block--lila a.link-button {
 	color: var(--color-white);
 }
-.contentblock.contentblock--lila a.link-button:hover {
+.block.block--lila a.link-button:hover {
 	opacity: 1;
 	background: var(--color-green);
 }
@@ -95,13 +95,13 @@
 	fill: white;
 }
 
-.contentblock--blue .contentblock__kontur svg #kontur {
+.block--blue .contentblock__kontur svg #kontur {
 	fill: var(--color-blue);
 }
-.contentblock--lila .contentblock__kontur svg #kontur {
+.block--lila .contentblock__kontur svg #kontur {
 	fill: var(--color-lila);
 }
-.contentblock--green .contentblock__kontur svg #kontur {
+.block--green .contentblock__kontur svg #kontur {
 	fill: var(--color-green);
 }
 
@@ -209,6 +209,10 @@
 	flex-direction: column;
 	border: 20px solid var(--color-lila);
 	overflow: hidden;
+}
+.programmblock a.programm:hover,
+.bandblock a.band:hover {
+	opacity: 1;
 }
 .programmblock .programm {
 	border: 20px solid var(--color-green);

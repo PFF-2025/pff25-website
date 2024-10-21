@@ -54,6 +54,60 @@ fieldLayouts:
         name: Inhalt
         uid: be6fa7ef-2eeb-4833-a6ce-b8a014fe4f40
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: 90aa4796-f6b1-42a3-a940-f679702b5518 # Block Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31d1d3be-a067-44dd-a1a1-e64e8392fbba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: e4bf567f-a64c-4827-88b3-d16bc642c5b3 # Padding Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e100810-c4d9-437a-b82f-fa414354bf6b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:38:28+00:00'
+            elementCondition: null
+            fieldUid: 68789c44-35d7-4475-8edd-4cf3cbc6a326 # Padding Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 960d99f5-bc38-459f-bad9-77fd33625872
+            userCondition: null
+            warning: null
+            width: 100
+        name: Design
+        uid: 6a40cd21-fa47-4fed-b53b-47da66bf20ce
+        userCondition: null
 handle: programmBlock
 hasTitleField: false
 icon: icons

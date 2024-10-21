@@ -5,7 +5,7 @@
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageContentBlock' and block.html %}
-				<div class="block contentblock contentblock--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
+				<div class="block contentblock block--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
 					{% if block.kontur %}
 						<div class="contentblock__kontur">
 							{% if block.konturDesign == 'kontur2' %}
@@ -28,7 +28,10 @@
 			{% endif %}
 			{% if block.type == 'bandBlock' %}
 				{% if block.bandlist | length %}
-					<div class="block bandblock">
+					<div
+							class="block bandblock block--{{block.blockStyle}}"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
 						{% for band in block.bandlist.all() %}
 							{% include 'band/band-block.twig' %}
 						{% endfor %}
@@ -37,7 +40,10 @@
 			{% endif %}
 			{% if block.type == 'programmBlock' %}
 				{% if block.programmlist | length %}
-					<div class="block programmblock">
+					<div
+							class="block programmblock block--{{block.blockStyle}}"
+							style="{{ block.paddingTop ? 'padding-top:' ~ block.paddingTop ~ ';' : '' }}{{ block.paddingBottom ? 'padding-bottom:' ~ block.paddingBottom ~ ';' : '' }}"
+					>
 						{% for programm in block.programmlist.all() %}
 							{% include 'programm/programm-block.twig' %}
 						{% endfor %}

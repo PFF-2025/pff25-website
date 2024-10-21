@@ -54,6 +54,60 @@ fieldLayouts:
         name: Content
         uid: 0bf71546-62b4-42ee-a89d-a29c101e5480
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-10-21T18:39:06+00:00'
+            elementCondition: null
+            fieldUid: 90aa4796-f6b1-42a3-a940-f679702b5518 # Block Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c95bb18-6f9f-42d5-a77a-6615b83fa1b6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:39:06+00:00'
+            elementCondition: null
+            fieldUid: e4bf567f-a64c-4827-88b3-d16bc642c5b3 # Padding Top
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f8ae843-d87a-4096-b901-b7b1597192b0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-10-21T18:39:06+00:00'
+            elementCondition: null
+            fieldUid: 68789c44-35d7-4475-8edd-4cf3cbc6a326 # Padding Bottom
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62ebf23f-7610-424e-bfdb-f8f893fc560e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Design
+        uid: cb10bf35-9bde-41b9-860a-44c5d5c76733
+        userCondition: null
 handle: bandBlock
 hasTitleField: false
 icon: guitar-electric
