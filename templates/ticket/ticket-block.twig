@@ -8,7 +8,12 @@
 	</div>
 	<div class="ticket-info ck-content">
 		<p>{{ ticket.html | raw}}</p>
-		<p class="ticket-price">{{ ticket.preis}}</p>
+		<p class="ticket-price">
+			{{ ticket.preis}}
+			{% if ticket.originalpreis %}
+				<span class="ticket-original-price">{{ ticket.originalpreis}}</span>
+			{% endif %}
+		</p>
 	</div>
 	{% if ticket.buttonText and ticket.externalLink %}
 		<div class="ticket-button">

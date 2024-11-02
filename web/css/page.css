@@ -166,6 +166,11 @@
 	font-size: 30px;
 	color: var(--color-lila);
 }
+.ticket .ticket-original-price {
+	font-size: 20px;
+	text-decoration: line-through;
+	margin-left: 5px;
+}
 
 .ticket .ticket-button {
 	padding: 20px;

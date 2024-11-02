@@ -68,6 +68,22 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-11-02T18:02:58+00:00'
+            elementCondition: null
+            fieldUid: 918f2b8b-c6fb-4cd5-b4fc-62e8168b102c # Preis
+            handle: originalpreis
+            includeInCards: false
+            instructions: 'Wird durchgestrichen angezeigt'
+            label: 'Original Preis'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00b23dfa-3f8f-4732-83f5-cabe71fb04e5
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-10-16T18:22:24+00:00'
             elementCondition: null
             fieldUid: c936c810-463c-43e1-9b5e-47993eca4121 # Link
