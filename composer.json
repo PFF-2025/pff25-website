@@ -21,13 +21,13 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.3.1",
-    "craftcms/cms": "5.4.9",
+    "craftcms/ckeditor": "4.4.0",
+    "craftcms/cms": "5.5.7",
     "doublesecretagency/craft-cpcss": "3.0.0",
     "mmikkel/cp-field-inspect": "2.0.2",
     "nystudio107/craft-code-field": "5.0.0",
     "olivestudio/craft-olivemenus": "5.0.0",
-    "spacemonk/craft-language-manager": "1.1.0",
+    "spacemonk/craft-language-manager": "1.1.1",
     "verbb/doxter": "6.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
