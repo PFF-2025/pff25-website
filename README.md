@@ -14,3 +14,8 @@ ddev import-db --file=./path/to/backup.sql
 Open in Browser:
 
 https://pff25.ddev.site:8067
+
+```
+Login: admin
+Password: asdfasdf
+```
