@@ -53,25 +53,25 @@ options:
         color: 'hsl(270, 75%, 60%)'
         label: Purple
       -
-        color: var(--color-green)
+        color: '#027755'
         label: 'PFF Green'
       -
-        color: var(--color-blue)
+        color: '#001259'
         label: 'PFF Blue'
       -
-        color: var(--color-lila)
+        color: '#C092FF'
         label: 'PFF Lila'
       -
-        color: var(--color-petrol)
+        color: '#30969e'
         label: 'PFF Petrol'
       -
-        color: var(--color-beige)
+        color: '#dbd0af'
         label: 'PFF Beige'
       -
-        color: var(--color-linde)
+        color: '#d3fd7e'
         label: 'PFF Linde'
       -
-        color: var(--color-rost)
+        color: '#cd4117'
         label: 'PFF Rost'
     columns: 5
   fontSize:
