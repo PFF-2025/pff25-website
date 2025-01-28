@@ -402,6 +402,45 @@
 	opacity: 0.7;
 }
 
+
+.hero-stoerer {
+	background: url('/img/stoerer.svg') no-repeat;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 82%;
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 85px;
+	right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(-7deg);
+	animation: rotateStoerer 2s infinite alternate ease-in-out;
+}
+
+@media (min-width: 640px) {
+	.hero-stoerer {
+		width: 200px;
+		height: 200px;
+		top: 220px;
+		right: 50px;
+		font-size: 100%;
+	}
+}
+
+@keyframes rotateStoerer {
+	0% {
+		transform: rotate(-7deg);
+	}
+	100% {
+		transform: rotate(-12deg);
+	}
+}
+
 /* people cards */
 
 .cardblock {
