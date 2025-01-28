@@ -21,10 +21,10 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.4.0",
-    "craftcms/cms": "5.5.8",
+    "craftcms/ckeditor": "4.5.0",
+    "craftcms/cms": "5.6.1",
     "doublesecretagency/craft-cpcss": "3.0.0",
-    "mmikkel/cp-field-inspect": "2.0.2",
+    "mmikkel/cp-field-inspect": "2.0.4",
     "nystudio107/craft-code-field": "5.0.0",
     "olivestudio/craft-olivemenus": "5.0.0",
     "spacemonk/craft-language-manager": "1.1.1",
