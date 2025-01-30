@@ -9,8 +9,6 @@ settings:
   ckeConfig: 5a767868-c714-4d14-9887-bc3696500f7b # Fancy
   createButtonLabel: null
   defaultTransform: null
-  entryTypes:
-    - d898aa9b-2eb8-45c2-803d-f1edfcc78cf1 # Band
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
