@@ -38,7 +38,7 @@ fieldLayouts:
           -
             dateAdded: '2024-09-09T16:21:12+00:00'
             elementCondition: null
-            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # HTML
+            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # Text
             handle: null
             includeInCards: false
             instructions: null

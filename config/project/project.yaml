@@ -1,4 +1,4 @@
-dateModified: 1738098401
+dateModified: 1738270702
 elementSources:
   craft\elements\Entry:
     -
@@ -108,7 +108,7 @@ meta:
     88ba550e-be57-48c6-a6ba-403d894e02dd: Ort # Ort
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
     268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
-    283f2b4b-9210-4126-8d4d-0e3f70da74e9: HTML # HTML
+    283f2b4b-9210-4126-8d4d-0e3f70da74e9: Text # Text
     401ee9d8-e854-4a9d-b858-34924ce8a45d: YouTube # YouTube
     438e519b-fd8a-4b06-b94c-e7232e751a58: 'Band Block' # Band Block
     529b9251-a976-484a-b9e2-3f7a7beb420c: Bands # Bands

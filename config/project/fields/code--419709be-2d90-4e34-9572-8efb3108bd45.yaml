@@ -24,7 +24,7 @@ settings:
   lineNumbers: true
   monacoEditorOptions: ''
   placeholder: ''
-  showLanguageDropdown: true
+  showLanguageDropdown: false
   singleLineEditor: false
   theme: auto
 translationKeyFormat: null
