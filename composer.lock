@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3601616cc536bcb492acb6a78c37d05",
+    "content-hash": "ae08117f7f27d7896958bc32c2929c7c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -285,11 +285,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.6.3",
+            "version": "5.6.5.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/4a1bb362c55e134fd0ef44afd8180f410123e2ab",
-                "reference": "4a1bb362c55e134fd0ef44afd8180f410123e2ab",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/bb960e61bf22f2f8db673dfc34fe3ffcded408f2",
+                "reference": "bb960e61bf22f2f8db673dfc34fe3ffcded408f2",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2025-01-29T19:02:15+00:00"
+            "time": "2025-02-05T00:29:56+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -1249,7 +1249,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.48.26",
+            "version": "v10.48.28",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/48de3d6bc6aa779112ddcb608a3a96fc975d89d8",
@@ -1294,7 +1294,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.48.26",
+            "version": "v10.48.28",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/3ee34ac306fafc2a6f19cd7cd68c9af389e432a5",
@@ -1330,7 +1330,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.48.26",
+            "version": "v10.48.28",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/f90663a69f926105a70b78060a31f3c64e2d1c74",
@@ -1368,7 +1368,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.48.26",
+            "version": "v10.48.28",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/dff667a46ac37b634dcf68909d9d41e94dc97c27",
