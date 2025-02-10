@@ -170,6 +170,11 @@ options:
           class: link-with-arrow
         label: Pfeil
         mode: manual
+      isWitharrowbutton:
+        attributes:
+          class: 'link-with-arrow link-button'
+        label: 'Button mit Pfeil'
+        mode: manual
     defaultProtocol: 'https://'
     targetOptions: true
   style:
