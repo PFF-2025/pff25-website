@@ -1,0 +1,37 @@
+color: null
+fieldLayouts:
+  df58ab1c-f397-4629-8650-fdf7678ea396:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-02-24T19:53:36+00:00'
+            elementCondition: null
+            fieldUid: 06db2bcf-7223-4c60-971d-a1b16950a857 # FAQ Liste
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9070b47f-ca73-474d-bc6c-1b15991f9ef1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 8533328c-c339-4da1-9d64-a1e143adee87
+        userCondition: null
+handle: faqBlock
+hasTitleField: false
+icon: life-ring
+name: 'FAQ Block'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

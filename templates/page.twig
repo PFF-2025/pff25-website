@@ -68,6 +68,17 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'faqBlock' %}
+				{% if block.faqList | length %}
+					<div class="block faqblock">
+						<div class="faqblock__content">
+							{% for faq in block.faqList.all() %}
+								{% include 'faq.twig' with faq %}
+							{% endfor %}
+						</div>
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>

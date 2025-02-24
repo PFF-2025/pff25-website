@@ -297,6 +297,35 @@
 	margin-right: 5px;
 }
 
+.faqblock {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.faqblock__content {
+	width: 100%;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+@media (min-width: 768px) {
+	.faqblock__content {
+		max-width: 42rem; /* 672px (2xl) */
+	}
+}
+
+
+.faq summary {
+	cursor: pointer;
+}
+.faq summary h2 {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+
 /* CKE Styles */
 
 .ck-content .image {

@@ -5,13 +5,43 @@ name: 'Page Contents'
 searchable: false
 settings:
   createButtonLabel: 'Add Block'
+  defaultIndexViewMode: cards
   entryTypes:
-    - 47d2643e-005f-4d89-918d-f4589848d9cd # Content Block
-    - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Code Block (HTML)
-    - 438e519b-fd8a-4b06-b94c-e7232e751a58 # Band Block
-    - dd5f665e-43be-4d5f-a599-b33983c14f15 # Ticket Block
-    - dfa186b3-dd5d-4278-a4f8-3762e9fbb522 # People Block
-    - 3b2d278d-b497-4a7e-a2c5-ee5ff555eef1 # Programm Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 47d2643e-005f-4d89-918d-f4589848d9cd # Content Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 60b1f1e4-1407-418f-878a-63e8394db8d1 # Code Block (HTML)
+    -
+      __assoc__:
+        -
+          - uid
+          - 438e519b-fd8a-4b06-b94c-e7232e751a58 # Band Block
+    -
+      __assoc__:
+        -
+          - uid
+          - dd5f665e-43be-4d5f-a599-b33983c14f15 # Ticket Block
+    -
+      __assoc__:
+        -
+          - uid
+          - dfa186b3-dd5d-4278-a4f8-3762e9fbb522 # People Block
+    -
+      __assoc__:
+        -
+          - uid
+          - 3b2d278d-b497-4a7e-a2c5-ee5ff555eef1 # Programm Block
+    -
+      __assoc__:
+        -
+          - uid
+          - d8ae8b9b-db89-49b1-90b7-50546120d4a4 # FAQ Block
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -12,12 +12,15 @@
 	flex-direction: column;
 }
 
+.footer__content {
+	display: flex;
+}
+
 @media (min-width: 768px) {
 	.footer {
 		font-size: 15px;
 	}
 	.footer__content {
-		display: flex;
 		justify-content: center;
 	}
 	.footer__columns {

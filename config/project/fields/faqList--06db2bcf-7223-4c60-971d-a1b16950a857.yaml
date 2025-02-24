@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: faqList
+instructions: null
+name: 'FAQ Liste'
+searchable: false
+settings:
+  createButtonLabel: 'Neuer Eintrag'
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 7ee56890-e692-4a59-8194-24dd368008b7 # FAQ
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

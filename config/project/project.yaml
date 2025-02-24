@@ -1,4 +1,4 @@
-dateModified: 1739218446
+dateModified: 1740428928
 elementSources:
   craft\elements\Entry:
     -
@@ -93,7 +93,9 @@ meta:
     5a767868-c714-4d14-9887-bc3696500f7b: Fancy # Fancy
     5d1e74eb-590f-4d9b-83ac-2d1b04415760: Tickets # Tickets
     6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
+    06db2bcf-7223-4c60-971d-a1b16950a857: 'FAQ Liste' # FAQ Liste
     7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d: People # People
+    7ee56890-e692-4a59-8194-24dd368008b7: FAQ # FAQ
     7fa9d105-86bf-428e-a80b-4ed51af313dd: 'Kontur Design' # Kontur Design
     8b8fbb58-1975-47ef-9177-6a934c13faa7: 'Programm Liste' # Programm Liste
     14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
@@ -137,6 +139,7 @@ meta:
     c936c810-463c-43e1-9b5e-47993eca4121: Link # Link
     cdb42f6d-113d-44cd-b2be-64fc96b16ad0: 'Show in menu' # Show in menu
     cecd9584-5020-49c3-82ae-0a510a7bfe69: 'Content Block' # Content Block
+    d8ae8b9b-db89-49b1-90b7-50546120d4a4: 'FAQ Block' # FAQ Block
     d293cad1-c4f0-47b4-98c9-bf6c3caaa5ba: Facebook # Facebook
     d898aa9b-2eb8-45c2-803d-f1edfcc78cf1: Band # Band
     dd5f665e-43be-4d5f-a599-b33983c14f15: 'Ticket Block' # Ticket Block
