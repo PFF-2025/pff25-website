@@ -1,10 +1,12 @@
-<details class="faq">
-	<summary>
-		<h2>
-			{{ faq.title }}
-		</h2>
-	</summary>
-	<p class="ck-content">
-		{{ faq.html|raw }}
-	</p>
-</details>
+{% if faq.html and faq.title  %}
+	<details class="faq">
+		<summary>
+			<h2>
+				{{ faq.title }}
+			</h2>
+		</summary>
+		<p class="ck-content">
+			{{ faq.html|raw }}
+		</p>
+	</details>
+{% endif %}

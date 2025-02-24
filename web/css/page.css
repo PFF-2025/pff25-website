@@ -317,13 +317,20 @@
 	}
 }
 
+.faq {
+	margin: 24px 0;
+}
 
 .faq summary {
 	cursor: pointer;
 }
 .faq summary h2 {
-	display: inline-block;
+	display: inline;
 	margin-left: 5px;
+}
+
+.faq p {
+	margin-top: 12px;
 }
 
 
