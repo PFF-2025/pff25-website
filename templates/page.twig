@@ -5,7 +5,7 @@
 	{% if entry.pageContents | length %}
 		{% for block in entry.pageContents.all() %}
 			{% if block.type == 'pageContentBlock' and block.html %}
-				<div class="block contentblock block--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
+				<div class="block contentblock block--{{ block.id }} block--{{block.blockStyle}} {{ block.kontur ? 'contentblock--with-kontur' }}">
 					{% if block.kontur %}
 						<div class="contentblock__kontur">
 							{% if block.konturDesign == 'kontur2' %}
