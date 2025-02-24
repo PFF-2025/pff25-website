@@ -212,7 +212,7 @@
 	background: var(--color-white);
 	display: flex;
 	flex-direction: column;
-	border: 20px solid var(--color-lila);
+	border: 20px solid var(--color-green);
 	overflow: hidden;
 }
 .programmblock a.programm:hover,
@@ -220,7 +220,7 @@
 	opacity: 1;
 }
 .programmblock .programm {
-	border: 20px solid var(--color-green);
+	border: 20px solid var(--color-lila);
 }
 @media (min-width: 768px) {
 	.programmblock .programm,
