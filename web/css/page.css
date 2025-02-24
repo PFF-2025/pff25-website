@@ -233,6 +233,7 @@
 .programmblock .programm-info,
 .bandblock .band-info {
 	padding: 10px;
+	color: var(--color-blue);
 }
 
 .programmblock .programm:hover,
