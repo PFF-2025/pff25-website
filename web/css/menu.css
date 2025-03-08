@@ -103,7 +103,7 @@
 	top: 80px;
 	left: 0;
 	width: 100%;
-	height: calc(100vh - 80px);
+	height: calc(100dvh - 80px);
 	background: var(--color-green);
 	display: none;
 	flex-direction: column;
@@ -150,6 +150,7 @@
 .menu-popup__bottom-content {
 	background: white;
 	color: var(--color-green);
+	padding: 5px;
 }
 
 .menu-popup__bottom-content li a {
