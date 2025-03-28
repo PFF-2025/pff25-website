@@ -31,36 +31,50 @@
 
 			<h1>Timetable</h1>
 
+			<div class="timetable-day-selector">
+				{% for day in days %}
+					<a data-day="{{ day }}" href="#{{ day }}">{{ day | t}}</a>
+				{% endfor %}
+			</div>
+
+
 			{% for day in days %}
-				<h2>{{ day | t}}</h2>
-				{% if sortedBands|length %}
-					<div>
-					{% for band in sortedBands %}
-						{% if band.day == day %}
-							<a href="{{ band.url }}">
-								<div class="timetable-band">
-									<div class="timetable-band__image">
-										{% if band.image.one() %}
-											{{ band.image.one().getImg({width: 128, height: 128, quality: 85, mode: 'crop'}) }}
-										{% endif %}
-									</div>
-									<div class="timetable-band__details">
-										<div class="timetable-band__details-title">
-											{{ band.title }}
+				<section data-day="{{ day }}" class="timetable-day">
+					<h2 class="timetable-day-title" id="{{ day }}">
+						{{ day | t}}
+						{% if day == 'fr' %}29.8.2025{% endif %}
+						{% if day == 'sa' %}30.8.2025{% endif %}
+						{% if day == 'so' %}31.8.2025{% endif %}
+					</h2>
+					{% if sortedBands|length %}
+						<div>
+						{% for band in sortedBands %}
+							{% if band.day == day %}
+								<a href="{{ band.url }}">
+									<div class="timetable-band">
+										<div class="timetable-band__image">
+											{% if band.image.one() %}
+												{{ band.image.one().getImg({width: 128, height: 128, quality: 85, mode: 'crop'}) }}
+											{% endif %}
 										</div>
-										<div class="timetable-band__details-stage">
-											{{ band.stage | t}}
+										<div class="timetable-band__details">
+											<div class="timetable-band__details-title">
+												{{ band.title }}
+											</div>
+											<div class="timetable-band__details-stage">
+												{{ band.stage | t}}
+											</div>
+										</div>
+										<div class="timetable-band__time">
+											{{ band.time|date('H:i') }}
 										</div>
 									</div>
-									<div class="timetable-band__time">
-										{{ band.time|date('H:i') }}
-									</div>
-								</div>
-							</a>
-						{% endif %}
-					{% endfor %}
-					</div>
-				{% endif %}
+								</a>
+							{% endif %}
+						{% endfor %}
+						</div>
+					{% endif %}
+				</section>
 			{% endfor %}
 		</div>
 

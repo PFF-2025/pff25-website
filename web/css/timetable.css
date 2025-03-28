@@ -1,3 +1,39 @@
+.timetable-day-selector {
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	margin: 10px 0;
+	width: 100%;
+	padding: 5px 0;
+	z-index: 10;
+}
+
+@media (min-width: 768px) {
+	.timetable-day-selector {
+		justify-content: left;
+	}
+}
+
+.timetable-day-selector a {
+	flex: 1;
+	background: var(--color-blue);
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	width: 120px;
+	text-align: center;
+}
+
+.timetable-day-selector a.active {
+	background: var(--color-lila);
+}
+
+.timetable-day-title {
+	position: sticky;
+	top: 80px;
+	background: white;
+}
+
 .timetable-band {
 	display: flex;
 	justify-content: space-between;
