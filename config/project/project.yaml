@@ -1,4 +1,4 @@
-dateModified: 1743190435
+dateModified: 1743191595
 elementSources:
   craft\elements\Entry:
     -
@@ -85,6 +85,7 @@ fs:
 meta:
   __names__:
     1a8b98e4-c690-4d38-bc3b-1cc9ea82e638: People # People
+    1d9d0161-6ffb-45da-9926-906b23dc52d2: 1200px # 1200px
     2d6dc998-a631-473b-aabb-607795249864: 300px # 300px
     2d51e5ff-6165-4ac1-a526-27da48dc6df5: 050px # 050px
     3aa81468-723c-414c-beea-ddee12ffd534: Images # Images
