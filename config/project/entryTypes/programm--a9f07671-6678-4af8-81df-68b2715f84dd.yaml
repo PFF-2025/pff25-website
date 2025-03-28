@@ -25,13 +25,29 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
             uid: ba3a1f1b-70b1-465c-a9a8-93de00303810
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-28T19:26:53+00:00'
+            elementCondition: null
+            fieldUid: 6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc # Kurz-Beschreibung
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a47292c-45ab-43e6-804b-6d03a1e3a390
             userCondition: null
             warning: null
             width: 100
@@ -92,8 +108,8 @@ icon: icons
 name: Programm
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
-titleTranslationKeyFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
 titleTranslationMethod: site

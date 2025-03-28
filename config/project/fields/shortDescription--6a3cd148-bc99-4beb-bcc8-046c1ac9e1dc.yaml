@@ -5,9 +5,9 @@ name: Kurz-Beschreibung
 searchable: false
 settings:
   byteLimit: null
-  charLimit: null
+  charLimit: 200
   code: false
-  initialRows: 4
+  initialRows: 2
   multiline: true
   placeholder: null
   uiMode: normal

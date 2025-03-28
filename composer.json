@@ -22,7 +22,7 @@
   "prefer-stable": true,
   "require": {
     "craftcms/ckeditor": "4.6.0",
-    "craftcms/cms": "5.6.11",
+    "craftcms/cms": "5.6.13",
     "doublesecretagency/craft-cpcss": "3.0.0",
     "mmikkel/cp-field-inspect": "2.0.4",
     "nystudio107/craft-code-field": "5.0.0",
