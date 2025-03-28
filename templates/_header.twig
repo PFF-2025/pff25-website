@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ craft.app.language }}">
 {% set pffSettings = craft.app.globals.getSetByHandle('pffSettings') %}
+{% set pageTitle = customPageTitle ?? entry.title %}
 <head>
 	<meta charset="UTF-8">
-	<title>{{ entry.title }}</title>
+	<title>{{ pageTitle }}</title>
 	<meta name="description" content="{{ pffSettings.metaDescription }}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +22,7 @@
 	<link rel="stylesheet" href="/css/menu.css?v={{ craft.app.config.custom.assetVersion }}">
 	<link rel="stylesheet" href="/css/page.css?v={{ craft.app.config.custom.assetVersion }}">
 	<link rel="stylesheet" href="/css/footer.css?v={{ craft.app.config.custom.assetVersion }}">
+	<link rel="stylesheet" href="/css/timetable.css?v={{ craft.app.config.custom.assetVersion }}">
 	<style>
 		{{ pffSettings.customCss | raw }}
 	</style>

@@ -1,0 +1,70 @@
+{% set customPageTitle = 'Timetable' %}
+{% include "_header.twig" %}
+{% include "menu.twig" %}
+
+<div class="pagecontent">
+	<div class="block contentblock">
+		<div class="contentblock__content">
+
+			{% set allBands = craft.entries()
+				.type('band')
+				.orderBy('time asc')
+				.all() %}
+
+			{% set dayBands = [] %}
+			{% set nightBands = [] %} {# midnight to 5:59am #}
+
+			{% for band in allBands %}
+				{# Extract just the hour as a number #}
+				{% set hour = band.time|date('G') %} {# 'G' => 0–23 in PHP date #}
+
+				{% if hour < 6 %}
+					{% set nightBands = nightBands|merge([band]) %}
+				{% else %}
+					{% set dayBands = dayBands|merge([band]) %}
+				{% endif %}
+			{% endfor %}
+
+			{% set sortedBands = dayBands|merge(nightBands) %}
+
+			{% set days = ['fr', 'sa', 'so'] %}
+
+			<h1>Timetable</h1>
+
+			{% for day in days %}
+				<h2>{{ day | t}}</h2>
+				{% if sortedBands|length %}
+					<div>
+					{% for band in sortedBands %}
+						{% if band.day == day %}
+							<a href="{{ band.url }}">
+								<div class="timetable-band">
+									<div class="timetable-band__image">
+										{% if band.image.one() %}
+											{{ band.image.one().getImg({width: 128, height: 128, quality: 85, mode: 'crop'}) }}
+										{% endif %}
+									</div>
+									<div class="timetable-band__details">
+										<div class="timetable-band__details-title">
+											{{ band.title }}
+										</div>
+										<div class="timetable-band__details-stage">
+											{{ band.stage | t}}
+										</div>
+									</div>
+									<div class="timetable-band__time">
+										{{ band.time|date('H:i') }}
+									</div>
+								</div>
+							</a>
+						{% endif %}
+					{% endfor %}
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+
+	</div>
+</div>
+
+{% include "_footer.twig" %}

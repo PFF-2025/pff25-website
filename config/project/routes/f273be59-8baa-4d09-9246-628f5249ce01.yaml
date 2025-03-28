@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 1
+template: timetable/timetable
+uriParts:
+  - timetable
+uriPattern: timetable

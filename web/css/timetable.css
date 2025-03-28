@@ -1,0 +1,43 @@
+.timetable-band {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	margin: 8px 0;
+	color: white;
+	gap: 2px;
+}
+
+.timetable-band__details {
+	background: var(--color-green);
+	flex: 1;
+	padding: 5px 10px;
+}
+
+.timetable-band__image img {
+	width: 64px;
+	height: 64px;
+}
+
+.timetable-band__details-title {
+	font-weight: bold;
+}
+
+.timetable-band__details-title a {
+	color: white;
+}
+
+.timetable-band__details-stage {
+	font-size: 85%;
+}
+
+.timetable-band__time {
+	background: var(--color-lila);
+	color: var(--color-blue);
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 74px;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
