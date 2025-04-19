@@ -17,7 +17,7 @@
   {% endif %}
 
   <div class="card-content">
-    <h4>{{person.realName}} v/o {{person.scoutname}}</h4>
+    <h4>{{person.realName}}{% if person.realName and person.scoutname %} v/o {% endif %}{{person.scoutname}}</h4>
     {{person.scoutfunction}}
   </div>
 </div>
