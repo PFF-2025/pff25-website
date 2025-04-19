@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: scoutname
+handle: realName
 instructions: null
-name: Pfadiname
+name: Name
 searchable: false
 settings:
   byteLimit: null

@@ -1,4 +1,4 @@
-dateModified: 1745093445
+dateModified: 1745094976
 elementSources:
   craft\elements\Entry:
     -
@@ -47,14 +47,14 @@ elementSources:
       type: native
     -
       defaultSort:
-        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
+        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Pfadiname
         - asc
       disabled: false
       key: 'section:7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d' # People
       tableAttributes:
         - status
         - 'field:e710f704-6af7-41db-911d-f8f9879bf6ad' # Funktion
-        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Name
+        - 'field:3410ad85-b767-4ccc-b267-9010fd5b4c52' # Pfadiname
         - 'field:a2a96765-2a74-4004-87aa-5d2a95536f00' # single image
       type: native
     -
@@ -96,6 +96,7 @@ meta:
     6a3cd148-bc99-4beb-bcc8-046c1ac9e1dc: Kurz-Beschreibung # Kurz-Beschreibung
     06db2bcf-7223-4c60-971d-a1b16950a857: 'FAQ Liste' # FAQ Liste
     7ca2e8dc-fb24-40c0-9665-d7a3e658ea2d: People # People
+    7ea698dc-9867-4c8a-9b05-22581ec63dae: Name # Name
     7ee56890-e692-4a59-8194-24dd368008b7: FAQ # FAQ
     7fa9d105-86bf-428e-a80b-4ed51af313dd: 'Kontur Design' # Kontur Design
     8b8fbb58-1975-47ef-9177-6a934c13faa7: 'Programm Liste' # Programm Liste
@@ -120,7 +121,7 @@ meta:
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
     918f2b8b-c6fb-4cd5-b4fc-62e8168b102c: Preis # Preis
     01562c2b-ccc9-49e5-963b-bfb78ae58e77: 800px # 800px
-    3410ad85-b767-4ccc-b267-9010fd5b4c52: Name # Name
+    3410ad85-b767-4ccc-b267-9010fd5b4c52: Pfadiname # Pfadiname
     4300bdc3-081a-44f1-b898-2d69a30c7175: 'Button Text' # Button Text
     5774fc9d-91fc-4367-bc86-ac8c0d4a6cfa: Stage # Stage
     68789c44-35d7-4475-8edd-4cf3cbc6a326: 'Padding Bottom' # Padding Bottom

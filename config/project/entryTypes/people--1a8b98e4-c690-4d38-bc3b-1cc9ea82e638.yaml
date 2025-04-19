@@ -1,6 +1,8 @@
 color: blue
 fieldLayouts:
   a553a7df-cf13-4e33-9cba-801cd1ef5fe6:
+    cardView:
+      - 'layoutElement:a9ab4043-963d-47cc-ab79-68fe373044b3'
     tabs:
       -
         elementCondition: null
@@ -25,7 +27,7 @@ fieldLayouts:
             placeholder: null
             providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -37,8 +39,9 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-10-17T16:55:37+00:00'
+            editCondition: null
             elementCondition: null
-            fieldUid: 3410ad85-b767-4ccc-b267-9010fd5b4c52 # Name
+            fieldUid: 3410ad85-b767-4ccc-b267-9010fd5b4c52 # Pfadiname
             handle: null
             includeInCards: false
             instructions: null
@@ -52,7 +55,25 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-04-19T20:36:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7ea698dc-9867-4c8a-9b05-22581ec63dae # Name
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c460eeed-f565-45f5-8ebc-be19ea4acb76
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-10-17T16:55:37+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: e710f704-6af7-41db-911d-f8f9879bf6ad # Funktion
             handle: null
@@ -69,6 +90,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-10-17T16:55:37+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: a2a96765-2a74-4004-87aa-5d2a95536f00 # single image
             handle: null
@@ -85,6 +107,7 @@ fieldLayouts:
             width: 100
           -
             dateAdded: '2024-10-18T15:29:06+00:00'
+            editCondition: null
             elementCondition: null
             fieldUid: a2a96765-2a74-4004-87aa-5d2a95536f00 # single image
             handle: funImage
@@ -108,8 +131,8 @@ icon: person
 name: People
 showSlugField: true
 showStatusField: true
-slugTranslationKeyFormat: ''
+slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
-titleTranslationKeyFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
 titleTranslationMethod: site
