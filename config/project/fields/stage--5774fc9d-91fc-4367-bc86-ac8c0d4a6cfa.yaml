@@ -4,15 +4,22 @@ instructions: null
 name: Stage
 searchable: false
 settings:
+  customOptions: false
   options:
     -
       __assoc__:
         -
           - label
-          - Hauptbühne
+          - 'Main Stage'
         -
           - value
           - main
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
         -
           - default
           - '1'
@@ -20,10 +27,16 @@ settings:
       __assoc__:
         -
           - label
-          - Zeltbühne
+          - 'Side Stage'
         -
           - value
           - second
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
         -
           - default
           - ''
@@ -35,6 +48,12 @@ settings:
         -
           - value
           - '-'
+        -
+          - icon
+          - ''
+        -
+          - color
+          - ''
         -
           - default
           - ''
