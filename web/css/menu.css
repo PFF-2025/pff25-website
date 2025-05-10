@@ -13,7 +13,7 @@
 .pagemenu.pagemenu--desktop {
 	display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* Desktop */
 	.pagemenu.pagemenu--desktop {
 		display: flex;
 	}
@@ -25,12 +25,14 @@
 	height: 40px;
 	margin-left: 20px;
 }
-@media (max-width: 767.9999px) {
+@media (max-width: 767.9999px) { /* Mobile */
 	.pagemenu .menu {
 		height: 100%;
 		width: 100%;
+		overflow: hidden;
+		overflow-y: auto;
 	}
-	.pagemenu .menu ul {
+	.pagemenu .menu > ul {
 		display: flex;
 		flex-direction: column;
 		justify-content: right;
@@ -51,7 +53,7 @@
 		display: block;
 	}
 
-	.pagemenu .menu li a::after {
+	.pagemenu .menu li.menu-item > a::after {
 		content: "\e903";
 		margin-left: 0.8em;
 		font-family: 'icomoon' !important;
@@ -66,11 +68,11 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* Desktop */
 	.pagemenu .menu {
 		height: 100%;
 	}
-	.pagemenu .menu ul {
+	.pagemenu .menu > ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: right;
@@ -84,8 +86,11 @@
 		font-size: 18px;
 		margin: 0 0.8rem;
 	}
+	.pagemenu .menu li a {
+		padding: 20px 0;
+	}
 }
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { /* Desktop (Big) */
 	.pagemenu .menu li {
 		font-size: 22px;
 		margin: 0 1rem;
@@ -114,6 +119,41 @@
 	display: flex;
 }
 
+@media (min-width: 768px) { /* Desktop */
+	.pagemenu .submenu {
+		display: none;
+		position: absolute;
+		background: var(--color-green);
+		min-width: 180px;
+		max-width: 350px;
+		flex-direction: column;
+		padding: 10px;
+		list-style: none;
+		margin-left: -25px;
+		margin-top: 10px;
+	}
+
+	.pagemenu .menu-item:hover .submenu {
+		display: flex;
+	}
+}
+@media (max-width: 767.9999px) { /* Mobile */
+	.pagemenu .submenu {
+		padding: 0 20px;
+		margin-bottom:  10px;
+	}
+
+	.pagemenu .submenu li a {
+		padding: 0;
+	}
+}
+
+.pagemenu .submenu li {
+	font-size: 18px;
+	padding: 6px 0;
+	text-transform: none;
+}
+
 .menu-opener,
 .menu-closer {
 	font-size: 40px;
@@ -138,6 +178,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	background: transparent;
 }
 .menu-popup__bottom svg {
 	width: 100%;
@@ -168,6 +209,6 @@
 .menu-popup__language-switch li {
 	display: flex;
 	width: auto;
-	padding: 20px 10px;
+	padding: 12px 10px;
 	font-size: 22px;
 }
