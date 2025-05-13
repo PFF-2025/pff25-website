@@ -21,8 +21,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/ckeditor": "4.6.0",
-    "craftcms/cms": "5.7.1.1",
+    "craftcms/ckeditor": "4.8.0",
+    "craftcms/cms": "5.7.5",
     "doublesecretagency/craft-cpcss": "3.0.0",
     "mmikkel/cp-field-inspect": "2.0.4",
     "nystudio107/craft-code-field": "5.0.0",
