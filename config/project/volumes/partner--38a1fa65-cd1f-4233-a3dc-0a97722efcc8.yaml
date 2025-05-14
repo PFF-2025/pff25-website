@@ -1,0 +1,50 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  5cd90c03-aaae-408e-a175-98fb1fd93d80:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-13T19:34:03+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 76bddc58-cba7-430b-999a-5411ed3978fd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 7089ceb1-4c97-4bf3-84a1-30225b73e1a7
+        userCondition: null
+fs: uploads
+handle: partner
+name: 'Partner Logos'
+sortOrder: 5
+subpath: partner
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: partner/transforms

@@ -1,0 +1,21 @@
+{% if partner.title %}
+	<div class="partner">
+		{% if partner.webseite %}
+			<a href="{{ partner.webseite }}" target="_blank">
+		{% endif %}
+			{% if partner.logo.one() %}
+				<div class="partner__logo">
+					<img src="{{ partner.logo.one().url }}" alt="{{ partner.title }}"/>
+				</div>
+			{% endif %}
+			<div class="partner__title">
+				{{ partner.title }}
+			</div>
+		{% if partner.webseite %}
+			</a>
+		{% endif %}
+		<div class="partner__text">
+			{{ partner.partnerText }}&nbsp;
+		</div>
+	</div>
+{% endif %}

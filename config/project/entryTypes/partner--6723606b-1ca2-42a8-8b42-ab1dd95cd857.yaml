@@ -1,0 +1,105 @@
+color: violet
+fieldLayouts:
+  115c472a-b1dc-4376-bb57-f8c759c6c87c:
+    cardView:
+      - 'layoutElement:8df38257-1cff-414b-ad33-64c5d593b6dd'
+      - 'layoutElement:f826a8c2-2a86-4ce5-8eec-5a3bdbc367d2'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-13T19:26:57+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a743fa98-9d8e-4a1d-a1c2-6a2f77d6b220
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-13T19:33:20+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0ab23ed4-ec10-492b-a186-251806b80f1e # Partner Text
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f826a8c2-2a86-4ce5-8eec-5a3bdbc367d2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-13T19:33:20+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 27d8fd23-5b20-4e74-93b9-a10a494c6912 # Webseite
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b23e005-709b-4a6b-8357-035b890a7544
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-13T19:33:20+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 89d6493a-89dc-4bbe-8e40-95f40f0b968c # Logo
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8df38257-1cff-414b-ad33-64c5d593b6dd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 3cff9c37-fbc5-4dcf-ba4f-661b014458a3
+        userCondition: null
+handle: partner
+hasTitleField: true
+icon: handshake
+name: Partner
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: none

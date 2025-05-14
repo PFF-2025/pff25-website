@@ -79,6 +79,22 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'partnerBlock' %}
+				{% if block.partnerList | length %}
+					<div class="block partnerblock">
+						<div class="partnerblock__content">
+							<div class="partnerblock__title">
+								<h2>{{ block.title }}</h2>
+							</div>
+							<div class="partnerblock__list">
+								{% for partner in block.partnerList.all() %}
+									{% include 'partner.twig' with partner %}
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				{% endif %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>

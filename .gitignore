@@ -6,6 +6,7 @@
 /web/pageuploads/
 /web/images/
 /web/documents/
+/web/partner
 /config/license.key*
 /config/asset_version.php
 /.htaccess

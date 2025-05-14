@@ -111,6 +111,12 @@ h2 {
 	margin-bottom: 0.3rem;
 	font-weight: 600;
 }
+h3 {
+	font-size: 1.2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.2rem;
+	font-weight: 600;
+}
 
 h1 a,
 h1 a:hover,

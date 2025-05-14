@@ -6,6 +6,7 @@ searchable: false
 settings:
   createButtonLabel: 'Add Block'
   defaultIndexViewMode: cards
+  enableVersioning: false
   entryTypes:
     -
       __assoc__:
@@ -42,6 +43,11 @@ settings:
         -
           - uid
           - d8ae8b9b-db89-49b1-90b7-50546120d4a4 # FAQ Block
+    -
+      __assoc__:
+        -
+          - uid
+          - c3a9b330-2f37-4afe-b212-951bab91a325 # Partner Block
   includeTableView: false
   maxEntries: null
   minEntries: null

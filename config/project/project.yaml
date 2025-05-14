@@ -1,4 +1,4 @@
-dateModified: 1746904500
+dateModified: 1747251655
 elementSources:
   craft\elements\Entry:
     -
@@ -84,6 +84,7 @@ fs:
     url: $PRIMARY_SITE_URL
 meta:
   __names__:
+    0ab23ed4-ec10-492b-a186-251806b80f1e: 'Partner Text' # Partner Text
     1a8b98e4-c690-4d38-bc3b-1cc9ea82e638: People # People
     1d9d0161-6ffb-45da-9926-906b23dc52d2: 1200px # 1200px
     2d6dc998-a631-473b-aabb-607795249864: 300px # 300px
@@ -103,6 +104,7 @@ meta:
     14e26db9-a9b4-4869-ba41-1d4eea0693b1: 'Band Liste' # Band Liste
     27d8fd23-5b20-4e74-93b9-a10a494c6912: Webseite # Webseite
     30a40700-7cdb-4906-9fb5-1fc34b7e154e: Bands # Bands
+    38a1fa65-cd1f-4233-a3dc-0a97722efcc8: 'Partner Logos' # Partner Logos
     47d2643e-005f-4d89-918d-f4589848d9cd: 'Content Block' # Content Block
     60b1f1e4-1407-418f-878a-63e8394db8d1: 'Code Block (HTML)' # Code Block (HTML)
     66a41ec7-003b-4f6a-840b-6565cfffe2db: Time # Time
@@ -110,6 +112,7 @@ meta:
     69fc8c65-9336-44e4-a9c5-a62ae50b2b64: Day # Day
     71ad843f-682e-4ae7-bb76-568fe063a92f: 'Public Schema' # Public Schema
     88ba550e-be57-48c6-a6ba-403d894e02dd: Ort # Ort
+    89d6493a-89dc-4bbe-8e40-95f40f0b968c: Logo # Logo
     90aa4796-f6b1-42a3-a940-f679702b5518: 'Block Style' # Block Style
     268e30b2-361d-4b81-9e08-483bbc18f966: 'Page Uploads' # Page Uploads
     283f2b4b-9210-4126-8d4d-0e3f70da74e9: Text # Text
@@ -119,6 +122,7 @@ meta:
     618e4923-3b9b-493f-a1c8-f33aba1400c1: Französisch # Französisch
     673f9bd1-3a54-42af-a6b2-e92198b5be01: 'Kontur oben anzeigen' # Kontur oben anzeigen
     679e177d-d0a0-4beb-94c2-d052c3703718: 'Custom CSS' # Custom CSS
+    787a3765-e91d-4965-8001-2a134af76945: 'Partner Liste' # Partner Liste
     918f2b8b-c6fb-4cd5-b4fc-62e8168b102c: Preis # Preis
     01562c2b-ccc9-49e5-963b-bfb78ae58e77: 800px # 800px
     3410ad85-b767-4ccc-b267-9010fd5b4c52: Pfadiname # Pfadiname
@@ -127,6 +131,7 @@ meta:
     68789c44-35d7-4475-8edd-4cf3cbc6a326: 'Padding Bottom' # Padding Bottom
     384449b0-0e26-4422-b8ff-20b1ed283812: 'Meta Description' # Meta Description
     419709be-2d90-4e34-9572-8efb3108bd45: 'Code (HTML)' # Code (HTML)
+    6723606b-1ca2-42a8-8b42-ab1dd95cd857: Partner # Partner
     32044933-486d-4254-9ef3-1611fac4ff3c: Ticket # Ticket
     85641352-280c-481a-98ed-9cef22cca8f7: Documents # Documents
     a2a96765-2a74-4004-87aa-5d2a95536f00: 'single image' # single image
@@ -138,6 +143,7 @@ meta:
     b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
     b03fb4e7-943f-471d-abf8-5db8bb15fdee: 'Übergeordnete Seite' # Übergeordnete Seite
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page
+    c3a9b330-2f37-4afe-b212-951bab91a325: 'Partner Block' # Partner Block
     c82a2b8a-9278-4d81-9453-37ede8c7524a: Programm # Programm
     c936c810-463c-43e1-9b5e-47993eca4121: Link # Link
     cdb42f6d-113d-44cd-b2be-64fc96b16ad0: 'Show in menu' # Show in menu

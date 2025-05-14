@@ -236,6 +236,11 @@
 	color: var(--color-blue);
 }
 
+.programmblock .programm-info h3,
+.bandblock .band-info h3 {
+	font-size: 1.5rem;
+}
+
 .programmblock .programm:hover,
 .bandblock .band:hover {
 	color: var(--color-blue);
@@ -333,6 +338,51 @@
 .faq .ck-content {
 	margin-top: 12px;
 	margin-bottom: 48px;
+}
+
+.partnerblock {
+	margin: 4rem 0;
+}
+
+.partnerblock__content {
+	text-align: center;
+}
+
+.partnerblock__list {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.partnerblock__list .partner {
+	width: 300px;
+	margin-bottom: 1.5rem;
+}
+
+.partnerblock__list .partner a {
+	display: flex;
+	flex-direction: column;
+}
+
+.partner__title {
+	font-weight: bold;
+}
+
+.partner__logo {
+	width: 300px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.partner__logo img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 
