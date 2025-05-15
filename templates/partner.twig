@@ -7,10 +7,11 @@
 				<div class="partner__logo">
 					<img src="{{ partner.logo.one().url }}" alt="{{ partner.title }}"/>
 				</div>
+			{%  else %}
+				<div class="partner__title">
+					{{ partner.title }}
+				</div>
 			{% endif %}
-			<div class="partner__title">
-				{{ partner.title }}
-			</div>
 		{% if partner.webseite %}
 			</a>
 		{% endif %}
