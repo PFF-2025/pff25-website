@@ -353,14 +353,17 @@
 	justify-content: center;
 	align-items: flex-end;
 	flex-wrap: wrap;
-	gap: 30px;
 	padding-bottom: 2rem;
 	margin-top: 2rem;
+}
+@media (min-width: 768px) {
+	.partnerblock__list {
+		gap: 30px;
+	}
 }
 
 .partnerblock__list .partner {
 	width: 300px;
-	margin-bottom: 1.5rem;
 }
 
 .partnerblock__list .partner a {
@@ -372,13 +375,21 @@
 	font-weight: bold;
 }
 
+.partner__text {
+	margin-bottom: 1em;
+}
+
 .partner__logo {
 	width: 300px;
 	height: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px;
+}
+@media (min-width: 768px) {
+	.partner__logo {
+		padding: 20px;
+	}
 }
 .partner__logo img {
 	max-width: 100%;
