@@ -13,6 +13,7 @@ php82 composer.phar install --no-interaction
 # Run migrations and apply project config:
 echo -e "\n* Migrate Craft CMS Config"
 php82 craft up --interactive=0
+php82 craft clear-caches/all
 
 # create new asset version
 TIMESTAMP=$(date +%s)
