@@ -584,3 +584,67 @@
 .card-content {
 	padding: 1rem;
 }
+
+/* Countdown */
+
+.pff-countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 10px;
+}
+
+.countdown {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 60px;
+	width: 100vw;
+	justify-content: center;
+}
+
+.countdown .block {
+	background-color: var(--color-blue);
+	text-align: center;
+	color: #fff;
+	padding: 10px 10px;
+	width: 20%;
+	overflow: hidden;
+	flex: 1;
+}
+
+.countdown .block .number {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.countdown .block .label {
+	font-size: 0.8em;
+	margin-top: 5px;
+	text-transform: uppercase;
+	color: var(--color-lila);
+}
+
+@media (min-width: 640px) {
+
+	.pff-countdown {
+		max-width: 42rem;
+	}
+
+	.countdown {
+		gap: 20px;
+	}
+
+	.countdown .block {
+		padding: 20px 30px;
+	}
+
+	.countdown .block .number {
+		font-size: 3em;
+	}
+
+	.countdown .block .label {
+		font-size: 0.9em;
+		margin-top: 5px;
+	}
+}
