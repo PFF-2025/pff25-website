@@ -95,6 +95,9 @@
 					</div>
 				{% endif %}
 			{% endif %}
+			{% if block.type == 'nextUpBlock' %}
+				{% include 'page/nextup-block.twig' with block %}
+			{% endif %}
 		{% endfor %}
 	{% endif %}
 </div>

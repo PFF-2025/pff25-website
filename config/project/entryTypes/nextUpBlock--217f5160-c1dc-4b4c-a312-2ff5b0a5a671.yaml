@@ -1,0 +1,87 @@
+color: null
+description: null
+fieldLayouts:
+  d75d4bbd-cfad-49c0-8cbd-87582b153808:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-07-31T18:44:22+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 272eae1e-4d8d-41f9-ba25-37537324e1f9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-31T20:04:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # Text
+            handle: html_before
+            includeInCards: false
+            instructions: null
+            label: 'Text vorher'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3bc3d12-e46e-4b6b-a455-ecddf0d86324
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-31T20:04:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 283f2b4b-9210-4126-8d4d-0e3f70da74e9 # Text
+            handle: html_after
+            includeInCards: false
+            instructions: null
+            label: 'Text nachher'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 391da868-c0f2-4bb5-8903-a7c03c0d9314
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: d784396e-9a35-48d8-a04a-2601e115dd84
+        userCondition: null
+handle: nextUpBlock
+hasTitleField: true
+icon: clock-eight
+name: 'Next Up Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,66 @@
+{% set allBands = craft.entries()
+	.type('band')
+	.orderBy('time asc')
+	.all() %}
+
+{% set bandsWithTimestamp = [] %}
+{% set now = "now"|date('U') %}
+{% set in1day = "now"|date_modify('+1 day')|date('U') %}
+
+{# Loop through all bands #}
+
+{% for band in allBands %}
+	{# Extract the timestamp from the band entry #}
+	{% set timestamp = pffBandTimestamp(band.day, band.time) %}
+
+	{# add band to list, if timestamp is max. 24 hours in the future or band is playing now #}
+	{% if (timestamp > now|date('U') and timestamp < in1day) or pffBandIsNowPlaying(timestamp, band.duration) %}
+		{% set bandsWithTimestamp = bandsWithTimestamp|merge([band|merge({'timestamp': timestamp, 'nowPlaying': pffBandIsNowPlaying(timestamp, band.duration)})]) %}
+	{% endif %}
+{% endfor %}
+{# sort bands by timestamp #}
+{% set sortedBands = bandsWithTimestamp|sort((a, b) => a.timestamp <=> b.timestamp) %}
+
+{# only show the next 3 bands #}
+{% set sortedBands = sortedBands|slice(0, 3) %}
+
+{% if sortedBands|length > 0 %}
+	<div class="block contentblock nextupblock">
+		<div class="contentblock__content">
+			{{ block.html_before|raw }}
+
+			{% for band in sortedBands %}
+				<div>
+					<a href="{{ band.url }}">
+						<div class="timetable-band">
+							<div class="timetable-band__image">
+								{% if band.image.one() %}
+									{{ band.image.one().getImg({width: 128, height: 128, quality: 85, mode: 'crop'}) }}
+								{% endif %}
+							</div>
+							<div class="timetable-band__details">
+								<div class="timetable-band__details-title">
+									{{ band.title }}
+									{% if band.nowPlaying %}
+										<i>Now Playing!</i>
+									{% endif %}
+								</div>
+								<div class="timetable-band__details-stage">
+									{{ band.stage | t}}
+								</div>
+							</div>
+							<div class="timetable-band__time {% if band.nowPlaying %}timetable-band__time-now-playing{% endif %}">
+								{{ band.time|date('H:i') }}
+							</div>
+						</div>
+					</a>
+				</div>
+			{% endfor %}
+
+			{{ block.html_after|raw }}
+
+		</div>
+	</div>
+{% endif %}
+
+

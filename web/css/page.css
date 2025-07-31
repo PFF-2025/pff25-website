@@ -396,6 +396,9 @@
 	max-height: 100%;
 }
 
+.nextupblock .contentblock__content {
+	padding-top: 24px;
+}
 
 /* CKE Styles */
 

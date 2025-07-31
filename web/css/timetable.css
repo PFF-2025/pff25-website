@@ -77,3 +77,21 @@
 	text-align: right;
 	font-variant-numeric: tabular-nums;
 }
+
+.timetable-band__time-now-playing {
+	/* pulsating red background */
+	background: var(--color-rost);
+	animation: pulse 1.5s infinite;
+	color: white;
+}
+@keyframes pulse {
+	0% {
+		background-color: var(--color-rost);
+	}
+	50% {
+		background-color: var(--color-lila);
+	}
+	100% {
+		background-color: var(--color-rost);
+	}
+}

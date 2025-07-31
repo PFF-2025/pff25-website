@@ -50,6 +50,8 @@
 						<div>
 						{% for band in sortedBands %}
 							{% if band.day == day %}
+								{% set timestamp = pffBandTimestamp(band.day, band.time) %}
+								{% set nowPlaying = pffBandIsNowPlaying(pffBandTimestamp(band.day, band.time), band.duration) %}
 								<a href="{{ band.url }}">
 									<div class="timetable-band">
 										<div class="timetable-band__image">
@@ -65,7 +67,7 @@
 												{{ band.stage | t}}
 											</div>
 										</div>
-										<div class="timetable-band__time">
+										<div class="timetable-band__time {% if nowPlaying %}timetable-band__time-now-playing{% endif %}">
 											{{ band.time|date('H:i') }}
 										</div>
 									</div>
