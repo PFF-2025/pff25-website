@@ -4,6 +4,6 @@
 	{% endif %}
 	<div class="band-info">
 		<h3>{{ band.title }}</h3>
-		<p>{{ band.day | t}}, {{ band.stage | t}}</p>
+		<p>{{ band.day | t}} {{ band.time | date('H:i')}}, {{ band.stage | t}}</p>
 	</div>
 </a>

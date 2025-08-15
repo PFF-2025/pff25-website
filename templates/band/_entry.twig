@@ -15,7 +15,7 @@
 
 			<h1>{{ entry.title }}</h1>
 			<div class="band-date">
-				{{ entry.day | t}}, {{ entry.stage | t}}
+				{{ entry.day | t}} {{ entry.time | date('H:i')}}, {{ entry.stage | t}}
 			</div>
 			<p>{{ entry.html | raw }}</p>
 
