@@ -1,4 +1,4 @@
-dateModified: 1753993418
+dateModified: 1755722295
 elementSources:
   craft\elements\Entry:
     -
@@ -142,7 +142,6 @@ meta:
     a7a34319-7fc3-4892-9fea-7d13cf4adb1b: Instagram # Instagram
     a9f07671-6678-4af8-81df-68b2715f84dd: Programm # Programm
     a668e47c-7099-4611-9500-49855fee3a6b: 648px # 648px
-    ab83834e-7f3e-47df-9faf-a72fb4a0710c: Musikrichtung # Musikrichtung
     b02cf624-e7cc-4348-8cd6-e7c19d0f8022: PFF # PFF
     b03fb4e7-943f-471d-abf8-5db8bb15fdee: 'Übergeordnete Seite' # Übergeordnete Seite
     b2d99a25-b299-4336-87fe-95d042e4935b: Page # Page

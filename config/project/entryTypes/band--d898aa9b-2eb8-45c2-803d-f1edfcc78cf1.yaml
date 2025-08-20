@@ -89,23 +89,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-07-31T19:33:16+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: ab83834e-7f3e-47df-9faf-a72fb4a0710c # Musikrichtung
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: ece26d97-6265-423c-af65-9bc46fe5909b
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2024-10-13T10:53:56+00:00'
             editCondition: null
             elementCondition: null
