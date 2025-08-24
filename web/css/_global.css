@@ -85,6 +85,7 @@ a.link-with-arrow::before {
 	border-radius: 0.5em;
 	display: inline-block;
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
 .link-button:hover {
 	background: var(--color-lila);
