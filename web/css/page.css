@@ -548,6 +548,17 @@
 	}
 }
 
+.content-block--rost {
+	background: var(--color-rost);
+	color: white;
+	padding: 20px;
+	display: block;
+}
+blockquote.content-block--rost {
+	font-style: normal;
+	padding: 1px 20px;
+}
+
 /* people cards */
 
 .cardblock {

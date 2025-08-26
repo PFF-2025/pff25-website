@@ -184,6 +184,16 @@ options:
           - block-stoerer
         element: span
         name: 'PFF Stoerer'
+      -
+        classes:
+          - content-block--rost
+        element: p
+        name: 'Block rost'
+      -
+        classes:
+          - content-block--rost
+        element: blockquote
+        name: 'Block rost Quote'
 toolbar:
   - heading
   - fontSize
@@ -206,7 +216,8 @@ toolbar:
   - horizontalLine
   - '|'
   - insertTable
-  - anchor
+  - blockQuote
+  - bookmark
   - style
   - '|'
   - undo
