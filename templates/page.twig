@@ -71,7 +71,8 @@
 			{% if block.type == 'faqBlock' %}
 				{% if block.faqList | length %}
 					<div class="block faqblock">
-						<div class="faqblock__content">
+						<div class="faqblock__content" id="faq-list">
+							<input type="search" id="faq-search" class="faq-search" placeholder="🔎">
 							{% for faq in block.faqList.all() %}
 								{% include 'faq.twig' with faq %}
 							{% endfor %}

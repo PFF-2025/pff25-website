@@ -323,6 +323,16 @@
 	}
 }
 
+.faq-search {
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 5px;
+	border: 2px solid var(--color-green);
+}
+.faq-search:focus {
+	outline: none;
+	border-color: var(--color-lila);
+}
 .faq {
 	margin: 24px 0;
 }

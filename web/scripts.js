@@ -4,8 +4,32 @@ function toggleMobileMenu() {
 
 // Countdown Timer
 window.addEventListener("load", function () {
+  initializeCountdown();
+  initializeFaqSearch();
+});
+
+function initializeFaqSearch() {
+  // FAQ-Suche mit Teilwort- und Mehrwort-Suche
+  document.getElementById('faq-search').addEventListener('input', function (e) {
+    const query = e.target.value.trim().toLowerCase();
+    const terms = query.split(/\s+/).filter(Boolean);
+
+    document.querySelectorAll('#faq-list .faq').forEach(function (faq) {
+      const title = faq.querySelector('h2').textContent.toLowerCase();
+      const content = faq.querySelector('.ck-content').textContent.toLowerCase();
+      const text = title + ' ' + content;
+
+      // Alle Suchbegriffe müssen im Text vorkommen
+      const matches = terms.every(term => text.includes(term));
+      faq.style.display = matches || !query ? '' : 'none';
+    });
+  });
+}
+
+function initializeCountdown() {
   const targetDate = new Date("2025-08-29T16:00:00"); // Local time
   const countdownEl = document.getElementById("countdown");
+  if (!countdownEl) return;
 
   function updateCountdown() {
     const now = new Date();
@@ -29,4 +53,6 @@ window.addEventListener("load", function () {
 
   updateCountdown(); // Initialize immediately
   setInterval(updateCountdown, 1000);
-});
+}
+
+
