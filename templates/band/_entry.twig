@@ -17,7 +17,7 @@
 			<div class="band-date">
 				{{ entry.day | t}} {{ entry.time | date('H:i')}}, {{ entry.stage | t}}
 			</div>
-			<p>{{ entry.html | raw }}</p>
+			<div class="ck-content">{{ entry.html | raw }}</div>
 
 			<div class="band-links">
 				{% if entry.instagram %}
